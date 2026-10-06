@@ -91,8 +91,8 @@ section{padding:clamp(56px,7vw,104px) 0}
 .hero h1 em{font-style:italic;color:var(--aqua-d)}
 .hero p.lead{font-size:18px;color:var(--mute);max-width:34em;margin-bottom:32px}
 .hero .cta{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:40px}
-.trust{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;padding-top:28px;border-top:1px solid var(--line)}
-.trust div{display:flex;gap:12px;align-items:flex-start;font-size:14px;color:var(--mute);line-height:1.4}
+.trust{display:flex;flex-wrap:wrap;gap:18px 28px;padding-top:28px;border-top:1px solid var(--line)}
+.trust>div{flex:1 1 200px;display:flex;gap:12px;align-items:flex-start;font-size:14px;color:var(--mute);line-height:1.4}
 .trust svg{flex:none;color:var(--aqua);width:22px;height:22px}
 .trust b{display:block;color:var(--ink);font-weight:500;margin-bottom:2px}
 .photo{position:relative;aspect-ratio:5/6;border-radius:0 160px 0 160px;overflow:hidden;background:var(--soft2)}
@@ -109,7 +109,7 @@ section{padding:clamp(56px,7vw,104px) 0}
 .problems{background:var(--bg)}
 .pgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
 .ptile{position:relative;border-radius:var(--r);overflow:hidden;background:var(--soft);display:block;aspect-ratio:4/5}
-.ptile img{width:100%;height:100%;object-fit:cover;object-position:center 70%;transition:transform .9s cubic-bezier(.2,.7,.2,1)}
+.ptile img{width:100%;height:100%;object-fit:cover;object-position:center 60%;transition:transform .9s cubic-bezier(.2,.7,.2,1)}
 .ptile:hover img{transform:scale(1.05)}
 .ptile::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,255,255,.0) 40%,rgba(255,255,255,.96) 78%)}
 .ptile .n{position:absolute;left:18px;top:16px;z-index:2;font:500 13px "DM Sans";color:var(--aqua-d);background:#fff;border-radius:999px;padding:6px 10px}
@@ -220,12 +220,12 @@ footer .legal{padding-top:24px;display:grid;gap:6px;font-size:12px;color:#7f8f92
 footer .legal p{max-width:none}
 .flogo{height:38px;width:auto;margin-bottom:18px}
 
-@media(max-width:1100px){.mega-in{grid-template-columns:repeat(3,1fr)}.mega-promo{grid-column:span 3}.pgrid,.grid4{grid-template-columns:repeat(2,1fr)}.rail .card{flex-basis:calc(50% - 10px)}.bgrid{grid-template-columns:repeat(3,1fr)}footer .cols{grid-template-columns:1fr 1fr}}
-@media(max-width:900px){.top .l span:nth-child(2),.top .r a:nth-child(2){display:none}.menu{display:none}.burger{display:grid}
-  .hero .wrap{grid-template-columns:1fr}.photo{aspect-ratio:4/3;border-radius:0 80px 0 80px}.trust{grid-template-columns:1fr}
-  .why{margin:0 16px}.why .wrap,.faq .wrap,.about .wrap{grid-template-columns:1fr}.posts{grid-template-columns:1fr}
+@media(max-width:1100px){.mega-in{grid-template-columns:repeat(3,1fr)}.mega-promo{grid-column:span 3}.pgrid,.grid4{gap:14px}.rail .card{flex-basis:calc(33.33% - 14px)}.bgrid{grid-template-columns:repeat(3,1fr)}footer .cols{grid-template-columns:1fr 1fr}}
+@media(max-width:900px){.top .l span:nth-child(2),.top .r a:nth-child(2){display:none}.menu{display:none}.burger{display:grid}.pgrid,.grid4{grid-template-columns:repeat(2,1fr)}.rail .card{flex-basis:calc(50% - 10px)}
+  .hero .wrap{grid-template-columns:1fr}.photo{aspect-ratio:4/3;border-radius:0 80px 0 80px}
+  .why{margin:0 16px}.why .wrap,.faq .wrap,.about .wrap{grid-template-columns:1fr}.posts{grid-template-columns:1fr;gap:16px}.post{display:grid;grid-template-columns:minmax(140px,36%) 1fr;gap:18px;align-items:center}.post .im{margin:0;aspect-ratio:4/3}
   .wrap{padding:0 20px}.sec-head{flex-direction:column;align-items:flex-start;gap:12px}}
-@media(max-width:560px){.top .r span{display:none}.top .wrap{min-height:34px}.pgrid,.grid4{grid-template-columns:1fr 1fr;gap:16px 12px}.rail .card{flex-basis:78%}.bgrid{grid-template-columns:1fr 1fr}.hero h1{font-size:40px}.card .add span{display:none}.card .add{padding:10px}}
+@media(max-width:560px){.post{grid-template-columns:1fr;gap:10px}.post .im{aspect-ratio:16/10}.top .r span{display:none}.top .wrap{min-height:34px}.pgrid,.grid4{grid-template-columns:1fr 1fr;gap:16px 12px}.rail .card{flex-basis:78%}.bgrid{grid-template-columns:1fr 1fr}.hero h1{font-size:40px}.card .add span{display:none}.card .add{padding:10px}}
 </style>
 </head>
 <body>

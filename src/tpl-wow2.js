@@ -86,7 +86,7 @@ section{padding:clamp(64px,8vw,128px) 0;position:relative}
 /* проблемы: фото раскрывается кругом от курсора */
 .pgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
 .pt{position:relative;display:block;aspect-ratio:3/4;border-radius:28px;overflow:hidden;background:var(--white);border:1px solid var(--line);padding:26px;isolation:isolate}
-.pt img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 70%;clip-path:circle(0px at var(--x,50%) var(--y,50%));transition:clip-path .7s cubic-bezier(.2,.7,.2,1);z-index:0}
+.pt img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 60%;clip-path:circle(0px at var(--x,50%) var(--y,50%));transition:clip-path .7s cubic-bezier(.2,.7,.2,1);z-index:0}
 .pt:hover img{clip-path:circle(120% at var(--x,50%) var(--y,50%))}
 .pt::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(255,255,255,0) 45%,rgba(255,255,255,.95) 80%);opacity:0;transition:opacity .5s}
 .pt:hover::after{opacity:1}
@@ -96,7 +96,7 @@ section{padding:clamp(64px,8vw,128px) 0;position:relative}
 .pt p{color:var(--mute);font-size:14px}
 .pt .go{position:absolute;right:20px;top:20px;z-index:2;width:42px;height:42px;border-radius:50%;background:var(--aqua-l);color:var(--aqua-d);display:grid;place-items:center;transition:.3s}
 .pt:hover .go{background:var(--ink);color:#fff;transform:rotate(-45deg)}
-.pt::before{content:"";position:absolute;inset:0;z-index:0;background:var(--img) center 70%/cover no-repeat;opacity:.28;filter:grayscale(.6);transition:opacity .5s}
+.pt::before{content:"";position:absolute;inset:0;z-index:0;background:var(--img) center 60%/cover no-repeat;opacity:.28;filter:grayscale(.6);transition:opacity .5s}
 .pt:hover::before{opacity:0}
 .pt .deco{display:none}
 .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
@@ -204,12 +204,12 @@ footer .hrs{margin-top:10px;display:grid;gap:3px}
 footer .legal{padding-top:24px;display:grid;gap:6px;font-size:12px;color:#7d9092}
 .flogo{height:38px;width:auto;margin-bottom:18px}
 
-@media(max-width:1100px){.pgrid,.grid4{grid-template-columns:repeat(2,1fr)}.bgrid{grid-template-columns:repeat(3,1fr)}.posts{grid-template-columns:1fr}.drops{grid-template-columns:1fr 1fr}footer .cols{grid-template-columns:1fr 1fr}}
-@media(max-width:900px){.menu{display:none}.burger{display:grid}.hero .wrap{grid-template-columns:1fr}.blob{max-width:420px;margin:0 auto}.blob .k1{left:0}.blob .k2{right:0}.hero{padding-top:110px}
+@media(max-width:1100px){.pgrid,.grid4{gap:14px}.bgrid{grid-template-columns:repeat(3,1fr)}.drops{grid-template-columns:1fr 1fr}footer .cols{grid-template-columns:1fr 1fr}}
+@media(max-width:900px){.pgrid,.grid4{grid-template-columns:repeat(2,1fr)}.posts{grid-template-columns:1fr;gap:14px}.post{grid-template-columns:minmax(140px,36%) 1fr;align-items:center}.post .im{aspect-ratio:4/3}.menu{display:none}.burger{display:grid}.hero .wrap{grid-template-columns:1fr}.blob{max-width:420px;margin:0 auto}.blob .k1{left:0}.blob .k2{right:0}.hero{padding-top:110px}
   .doctor .wrap,.faq .wrap,.about .wrap{grid-template-columns:1fr}.facts{gap:12px}.facts b{font-size:30px}
   .wrap{padding:0 20px}.rail-wrap{margin:0 -20px;padding:0 20px}.sec-head{flex-direction:column;align-items:flex-start;gap:12px}
   .pt img{clip-path:none;opacity:.9}.pt::after{opacity:1}.pt .deco{display:none}}
-@media(max-width:560px){.pgrid{grid-template-columns:1fr 1fr;gap:12px}.pt{padding:16px;border-radius:20px}.pt .d{left:16px;right:16px;bottom:16px}.pt h3{font-size:18px}.pt p{font-size:12px}.pt .go{width:34px;height:34px;right:12px;top:12px}
+@media(max-width:560px){.post{grid-template-columns:1fr}.post .im{aspect-ratio:16/10}.pgrid{grid-template-columns:1fr 1fr;gap:12px}.pt{padding:16px;border-radius:20px}.pt .d{left:16px;right:16px;bottom:16px}.pt h3{font-size:18px}.pt p{font-size:12px}.pt .go{width:34px;height:34px;right:12px;top:12px}
   .grid4{grid-template-columns:1fr 1fr;gap:16px 12px}.card .add{padding:9px 12px;font-size:12px}.bgrid{grid-template-columns:1fr 1fr 1fr;gap:12px}.brand b{font-size:16px}.brand small{display:none}.drops{grid-template-columns:1fr}.hero h1{font-size:40px}.rail .card{flex-basis:72vw}.blob .k b{max-width:130px}}
 </style>
 </head>

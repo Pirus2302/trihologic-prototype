@@ -63,17 +63,17 @@ const SC = {
     ].map(([t, p]) => ({ t, href: S + 'product-category/aksessuary/' + p + '/' })) }
   ],
 
-  /* Блок «Подобрать уход» – четыре проблемы с живого сайта. Картинки сейчас с впечатанным текстом,
-     в прототипах подпись выводится отдельно, чтобы менять без перерисовки */
+  /* Блок «Подобрать уход» – четыре проблемы с живого сайта. Картинки с сайта шли с впечатанной подписью,
+     подпись обрезана (assets/problems), текст выводится отдельно */
   problems: [
     { t: 'Выпадение волос', sub: 'остановить на ранней стадии', href: S + 'product-category/naznachenie/vypadenie-volos/',
-      img: U + '2026/04/instories_ac4699c6-27a4-43a7-a79a-25733c173440-1024x1024.png', n: '01' },
+      img: 'assets/problems/loss.jpg', n: '01' },
     { t: 'Перхоть и себорея', sub: 'зуд, жирность, шелушение', href: S + 'product-category/naznachenie/perhot-seboreja-seborejnyj-dermatit/',
-      img: U + '2026/04/instories_746b7ffc-d97f-4984-8f40-97a4f507d31d-1024x1024.png', n: '02' },
+      img: 'assets/problems/dandruff.jpg', n: '02' },
     { t: 'Стимуляция роста', sub: 'плотность и толщина волос', href: S + 'product-category/naznachenie/stimuljacija-rosta-volos/',
-      img: U + '2026/04/instories_eeb78ea8-6ebe-410f-a83d-ce0651433e41-1024x1024.png', n: '03' },
+      img: 'assets/problems/growth.jpg', n: '03' },
     { t: 'Защита волос', sub: 'окрашенные, повреждённые, длина', href: S + 'product-category/naznachenie/zashhita-volos/',
-      img: U + '2026/04/instories_d4049ca2-a0ce-41f1-9ec8-f13b9929417c-1024x1024.png', n: '04' }
+      img: 'assets/problems/protect.jpg', n: '04' }
   ],
 
   /* Дополнительные ссылки на назначения – для расширенного подбора (АГА, дети и т.д.) */
