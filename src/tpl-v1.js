@@ -225,7 +225,7 @@ footer .legal p{max-width:none}
   .hero .wrap{grid-template-columns:1fr}.photo{aspect-ratio:4/3;border-radius:0 80px 0 80px}.trust{grid-template-columns:1fr}
   .why{margin:0 16px}.why .wrap,.faq .wrap,.about .wrap{grid-template-columns:1fr}.posts{grid-template-columns:1fr}
   .wrap{padding:0 20px}.sec-head{flex-direction:column;align-items:flex-start;gap:12px}}
-@media(max-width:560px){.pgrid,.grid4{grid-template-columns:1fr 1fr;gap:16px 12px}.rail .card{flex-basis:78%}.bgrid{grid-template-columns:1fr 1fr}.hero h1{font-size:40px}.card .add span{display:none}.card .add{padding:10px}}
+@media(max-width:560px){.top .r span{display:none}.top .wrap{min-height:34px}.pgrid,.grid4{grid-template-columns:1fr 1fr;gap:16px 12px}.rail .card{flex-basis:78%}.bgrid{grid-template-columns:1fr 1fr}.hero h1{font-size:40px}.card .add span{display:none}.card .add{padding:10px}}
 </style>
 </head>
 <body>

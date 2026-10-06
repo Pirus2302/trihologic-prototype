@@ -190,7 +190,8 @@ const price = p => `${p}<small> BYN</small>`;
 const switcher = current => {
   const items = [['v1.html', 'Вариант 1'], ['v2.html', 'Вариант 2'], ['wow.html', 'WOW'], ['wow2.html', 'WOW 2'], ['index.html', 'Все']];
   return `<nav class="sw" aria-label="Варианты главной">${items.map(([h, t]) => `<a href="${h}"${h === current ? ' class="on"' : ''}>${t}</a>`).join('')}</nav>
-<style>.sw{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:9999;display:flex;gap:2px;padding:4px;border-radius:999px;background:rgba(14,22,24,.88);backdrop-filter:blur(10px);font:500 12px/1 system-ui,sans-serif;box-shadow:0 8px 30px rgba(0,0,0,.25)}.sw a{padding:9px 14px;border-radius:999px;text-decoration:none;white-space:nowrap;color:#eef5f6}.sw a.on{background:#eef5f6;color:#0e1618}@media(max-width:560px){.sw{bottom:8px}.sw a{padding:8px 10px;font-size:11px}}</style>`;
+<style>.sw{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:9999;display:flex;gap:2px;padding:4px;border-radius:999px;background:rgba(14,22,24,.88);backdrop-filter:blur(10px);font:500 12px/1 system-ui,sans-serif;box-shadow:0 8px 30px rgba(0,0,0,.25)}.sw a{padding:9px 14px;border-radius:999px;text-decoration:none;white-space:nowrap;color:#eef5f6}.sw a.on{background:#eef5f6;color:#0e1618}@media(max-width:560px){.sw{bottom:8px}.sw a{padding:8px 10px;font-size:11px}}</style>
+<script>if(top!==self){var s=document.querySelector('.sw');if(s)s.style.display='none'}</script>`;
 };
 
 /* Юридический подвал – одинаковый смысл во всех вариантах */
