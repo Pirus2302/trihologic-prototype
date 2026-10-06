@@ -82,7 +82,7 @@ section{padding:clamp(56px,7vw,104px) 0}
 .tools a,.tools button{position:relative;background:none;border:0;color:inherit;display:grid;place-items:center;width:40px;height:40px;border-radius:50%;transition:background .2s}
 .tools a:hover,.tools button:hover{background:var(--soft)}
 .tools em{position:absolute;top:4px;right:2px;min-width:17px;height:17px;border-radius:9px;background:var(--aqua);color:#fff;font:600 10px/17px "DM Sans";text-align:center;font-style:normal}
-.burger{display:none}
+.tools .burger{display:none}
 
 /* первый экран */
 .hero{padding:clamp(32px,4vw,56px) 0 0}
@@ -95,8 +95,8 @@ section{padding:clamp(56px,7vw,104px) 0}
 .trust>div{flex:1 1 200px;display:flex;gap:12px;align-items:flex-start;font-size:14px;color:var(--mute);line-height:1.4}
 .trust svg{flex:none;color:var(--aqua);width:22px;height:22px}
 .trust b{display:block;color:var(--ink);font-weight:500;margin-bottom:2px}
-.photo{position:relative;aspect-ratio:5/6;border-radius:0 160px 0 160px;overflow:hidden;background:var(--soft2)}
-.photo img{width:100%;height:100%;object-fit:cover;object-position:60% 20%;transform:scale(1.04);animation:ph 2.4s cubic-bezier(.2,.7,.2,1) both}
+.photo{position:relative;aspect-ratio:5/6;border-radius:160px 0 160px 0;overflow:hidden;background:var(--soft2)}
+.photo img{width:100%;height:100%;object-fit:cover;object-position:100% 22%;transform:scale(1.04);animation:ph 2.4s cubic-bezier(.2,.7,.2,1) both}
 @keyframes ph{from{transform:scale(1.12)}}
 .photo .chip{position:absolute;left:22px;bottom:22px;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-radius:14px;padding:14px 18px;display:flex;gap:12px;align-items:center;box-shadow:0 10px 30px rgba(18,26,27,.12);animation:up 1s .5s both}
 .photo .chip img{width:46px;height:46px;border-radius:10px;object-fit:cover;transform:none;animation:none}
@@ -221,8 +221,8 @@ footer .legal p{max-width:none}
 .flogo{height:38px;width:auto;margin-bottom:18px}
 
 @media(max-width:1100px){.mega-in{grid-template-columns:repeat(3,1fr)}.mega-promo{grid-column:span 3}.pgrid,.grid4{gap:14px}.rail .card{flex-basis:calc(33.33% - 14px)}.bgrid{grid-template-columns:repeat(3,1fr)}footer .cols{grid-template-columns:1fr 1fr}}
-@media(max-width:900px){.top .l span:nth-child(2),.top .r a:nth-child(2){display:none}.menu{display:none}.burger{display:grid}.pgrid,.grid4{grid-template-columns:repeat(2,1fr)}.rail .card{flex-basis:calc(50% - 10px)}
-  .hero .wrap{grid-template-columns:1fr}.photo{aspect-ratio:4/3;border-radius:0 80px 0 80px}
+@media(max-width:900px){.top .l span:nth-child(2),.top .r a:nth-child(2){display:none}.menu{display:none}.tools .burger{display:grid}.pgrid,.grid4{grid-template-columns:repeat(2,1fr)}.rail .card{flex-basis:calc(50% - 10px)}
+  .hero .wrap{grid-template-columns:1fr}.photo{aspect-ratio:4/3;border-radius:80px 0 80px 0}
   .why{margin:0 16px}.why .wrap,.faq .wrap,.about .wrap{grid-template-columns:1fr}.posts{grid-template-columns:1fr;gap:16px}.post{display:grid;grid-template-columns:minmax(140px,36%) 1fr;gap:18px;align-items:center}.post .im{margin:0;aspect-ratio:4/3}
   .wrap{padding:0 20px}.sec-head{flex-direction:column;align-items:flex-start;gap:12px}}
 @media(max-width:560px){.post{grid-template-columns:1fr;gap:10px}.post .im{aspect-ratio:16/10}.top .r span{display:none}.top .wrap{min-height:34px}.pgrid,.grid4{grid-template-columns:1fr 1fr;gap:16px 12px}.rail .card{flex-basis:78%}.bgrid{grid-template-columns:1fr 1fr}.hero h1{font-size:40px}.card .add span{display:none}.card .add{padding:10px}}
