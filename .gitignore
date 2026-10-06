@@ -1,0 +1,4 @@
+docs/screens/*.jpg
+!docs/screens/*-cover.jpg
+node_modules/
+tools/_tmp/

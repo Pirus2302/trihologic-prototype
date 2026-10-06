@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>TRIHOLOGIC – WOW 2 «Капля»</title>
+<link rel="icon" href="https://trihologic.by/wp-content/uploads/2026/03/cropped-favicon-32x32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6fafb;--white:#fff;--ink:#0f1c1e;--mute:#5b6c6e;--aqua:#1b9cb0;--aqua-d:#116f80;--aqua-l:#dcf0f3;--line:#dfe8ea;--wrap:1340px}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:400 16px/1.6 Onest,system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+ul,ol{list-style:none;padding:0}
+button{font:inherit;cursor:pointer}
+h1,h2,.serif{font-family:"Playfair Display",Georgia,serif;font-weight:400;line-height:1.08;letter-spacing:-.015em}
+h2{font-size:clamp(32px,3.8vw,56px)}
+h2 em{font-style:italic;color:var(--aqua-d)}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 32px}
+.caps{font:600 11px/1 Onest;letter-spacing:.22em;text-transform:uppercase;color:var(--aqua-d)}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:17px 28px;border-radius:999px;background:var(--ink);color:#fff;font:500 14px/1 Onest;border:1px solid var(--ink);transition:.3s;will-change:transform}
+.btn:hover{background:var(--aqua-d);border-color:var(--aqua-d)}
+.btn.ghost{background:rgba(255,255,255,.6);color:var(--ink);border-color:var(--line);backdrop-filter:blur(6px)}.btn.ghost:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+.btn.aqua{background:var(--aqua);border-color:var(--aqua)}.btn.aqua:hover{background:var(--aqua-d)}
+.btn svg{transition:transform .3s}.btn:hover svg{transform:translateX(4px)}
+section{padding:clamp(64px,8vw,128px) 0;position:relative}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:clamp(32px,4vw,56px)}
+.sec-head .more{display:inline-flex;align-items:center;gap:8px;font-weight:500;font-size:14px;color:var(--aqua-d)}.sec-head .more:hover{gap:12px}
+.rv{opacity:0;transform:translateY(28px);transition:opacity 1s cubic-bezier(.2,.7,.2,1),transform 1s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}*{animation:none!important;transition:none!important}}
+
+/* шапка */
+.hdr{position:fixed;left:0;right:0;top:0;z-index:60;transition:.4s;border-bottom:1px solid transparent}
+.hdr.on{background:rgba(246,250,251,.86);backdrop-filter:blur(14px);border-color:var(--line)}
+.hdr .wrap{display:flex;align-items:center;gap:40px;min-height:80px}
+.logo img{height:34px;width:auto}
+.menu{display:flex;gap:4px;flex:1;justify-content:center}
+.menu a{font-size:14px;font-weight:500;padding:10px 16px;border-radius:999px;transition:.25s}
+.menu a:hover,.menu a[aria-current]{background:rgba(255,255,255,.7);box-shadow:0 1px 0 var(--line)}
+.tools{display:flex;gap:6px;align-items:center}
+.tools a,.tools button{position:relative;background:none;border:0;color:inherit;display:grid;place-items:center;width:42px;height:42px;border-radius:50%;transition:background .2s}
+.tools a:hover,.tools button:hover{background:rgba(255,255,255,.8)}
+.tools em{position:absolute;top:5px;right:3px;min-width:17px;height:17px;border-radius:9px;background:var(--aqua);color:#fff;font:600 10px/17px Onest;text-align:center;font-style:normal}
+.burger{display:none}
+
+/* первый экран: жидкость */
+.hero{min-height:100vh;min-height:100svh;display:grid;align-items:center;padding:120px 0 60px;overflow:hidden}
+#gl{position:absolute;inset:0;width:100%;height:100%;display:block}
+.hero .wrap{position:relative;z-index:2;display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(32px,5vw,80px);align-items:center}
+.hero h1{font-size:clamp(44px,6vw,92px);margin:22px 0 26px}
+.hero h1 em{font-style:italic;color:var(--aqua-d)}
+.hero .lead{font-size:clamp(16px,1.3vw,19px);color:var(--mute);max-width:34em;margin-bottom:34px}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:40px}
+.trust{display:flex;gap:28px;flex-wrap:wrap;font-size:14px;color:var(--mute)}
+.trust span{display:inline-flex;gap:8px;align-items:center}.trust svg{color:var(--aqua);width:18px;height:18px}
+.blob{position:relative;aspect-ratio:1;max-width:560px;margin-left:auto;width:100%}
+.blob .ph{position:absolute;inset:0;overflow:hidden;border-radius:58% 42% 55% 45%/48% 56% 44% 52%;animation:morph 14s ease-in-out infinite alternate;box-shadow:0 60px 120px -40px rgba(17,111,128,.35)}
+.blob .ph img{width:100%;height:100%;object-fit:cover;object-position:62% 18%}
+@keyframes morph{0%{border-radius:58% 42% 55% 45%/48% 56% 44% 52%}50%{border-radius:45% 55% 42% 58%/55% 45% 55% 45%}100%{border-radius:52% 48% 60% 40%/42% 58% 46% 54%}}
+.blob .k{position:absolute;background:rgba(255,255,255,.88);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.9);border-radius:18px;padding:12px 14px;display:flex;gap:12px;align-items:center;box-shadow:0 20px 50px -20px rgba(15,28,30,.3);animation:floaty 6s ease-in-out infinite}
+.blob .k img{width:46px;height:46px;border-radius:10px;object-fit:cover}
+.blob .k b{display:block;font-weight:600;font-size:13px;line-height:1.3;max-width:180px}.blob .k small{color:var(--mute);font-size:12px}
+.blob .k1{left:-40px;bottom:16%}.blob .k2{right:-20px;top:12%;animation-delay:-3s}
+@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+.hero .caps,.hero h1,.hero .lead,.hero .cta,.hero .trust,.blob{animation:up 1.2s cubic-bezier(.2,.7,.2,1) both}
+.hero h1{animation-delay:.15s}.hero .lead{animation-delay:.3s}.hero .cta{animation-delay:.45s}.hero .trust{animation-delay:.55s}.blob{animation-delay:.3s}
+@keyframes up{from{opacity:0;transform:translateY(30px)}}
+
+/* проблемы: фото раскрывается кругом от курсора */
+.pgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.pt{position:relative;display:block;aspect-ratio:3/4;border-radius:28px;overflow:hidden;background:var(--white);border:1px solid var(--line);padding:26px;isolation:isolate}
+.pt img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 70%;clip-path:circle(0px at var(--x,50%) var(--y,50%));transition:clip-path .7s cubic-bezier(.2,.7,.2,1);z-index:0}
+.pt:hover img{clip-path:circle(120% at var(--x,50%) var(--y,50%))}
+.pt::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(255,255,255,0) 45%,rgba(255,255,255,.95) 80%);opacity:0;transition:opacity .5s}
+.pt:hover::after{opacity:1}
+.pt .n{position:relative;z-index:2;font:400 15px "Playfair Display";color:var(--aqua-d)}
+.pt .d{position:absolute;left:26px;right:26px;bottom:26px;z-index:2}
+.pt h3{font:400 clamp(22px,1.9vw,28px)/1.1 "Playfair Display";margin-bottom:6px}
+.pt p{color:var(--mute);font-size:14px}
+.pt .go{position:absolute;right:20px;top:20px;z-index:2;width:42px;height:42px;border-radius:50%;background:var(--aqua-l);color:var(--aqua-d);display:grid;place-items:center;transition:.3s}
+.pt:hover .go{background:var(--ink);color:#fff;transform:rotate(-45deg)}
+.pt::before{content:"";position:absolute;inset:0;z-index:0;background:var(--img) center 70%/cover no-repeat;opacity:.28;filter:grayscale(.6);transition:opacity .5s}
+.pt:hover::before{opacity:0}
+.pt .deco{display:none}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.chips a{padding:10px 16px;border:1px solid var(--line);background:var(--white);border-radius:999px;font-size:14px;transition:.25s}
+.chips a:hover{border-color:var(--aqua);color:var(--aqua-d)}
+
+/* врач */
+.doctor{background:var(--white)}
+.doctor .wrap{display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,6vw,100px);align-items:center}
+.doctor .q{font:italic clamp(28px,3vw,44px)/1.2 "Playfair Display";margin:18px 0 24px}
+.doctor .q b{font-style:normal;color:var(--aqua-d)}
+.doctor p{color:var(--mute);font-size:17px;max-width:34em;margin-bottom:28px}
+.doctor .ph{position:relative;aspect-ratio:4/5;border-radius:200px 200px 28px 28px;overflow:hidden}
+.doctor .ph img{width:100%;height:100%;object-fit:cover;object-position:60% 15%}
+.doctor .ph .b{position:absolute;left:20px;right:20px;bottom:20px;background:rgba(255,255,255,.9);backdrop-filter:blur(8px);border-radius:18px;padding:16px 20px}
+.doctor .ph .b b{display:block;font-weight:600}.doctor .ph .b small{color:var(--mute);font-size:13px}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;padding-top:28px;border-top:1px solid var(--line)}
+.facts b{display:block;font:400 40px/1 "Playfair Display";color:var(--aqua-d);margin-bottom:8px}
+.facts small{font-size:14px;color:var(--mute)}
+
+/* хиты: наклон за мышью */
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:24px 20px;perspective:1200px}
+.card{display:grid;grid-template-rows:auto auto 1fr auto;gap:8px;transform-style:preserve-3d;transition:transform .4s cubic-bezier(.2,.7,.2,1)}
+.card .pic{display:block;aspect-ratio:1;border-radius:24px;overflow:hidden;background:var(--white);border:1px solid var(--line);position:relative}
+.card .pic::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at var(--gx,50%) var(--gy,50%),rgba(255,255,255,.55),transparent 55%);opacity:0;transition:opacity .4s;pointer-events:none}
+.card:hover .pic::after{opacity:1}
+.card .pic img{width:100%;height:100%;object-fit:cover;transition:transform .9s cubic-bezier(.2,.7,.2,1)}
+.card:hover .pic img{transform:scale(1.06)}
+.card .tag{font:600 11px/1 Onest;letter-spacing:.16em;text-transform:uppercase;color:var(--aqua-d);margin-top:8px}
+.card h3{font:500 15px/1.4 Onest}
+.card .row{display:flex;justify-content:space-between;align-items:center;padding-top:6px;gap:10px}
+.price{font:600 18px/1 Onest}.price small{font-size:12px;color:var(--mute);font-weight:400}
+.add{padding:10px 16px;border-radius:999px;border:1px solid var(--line);background:var(--white);font-size:13px;font-weight:500;transition:.25s;white-space:nowrap}
+.add:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+
+/* бренды каплями */
+.bgrid{display:grid;grid-template-columns:repeat(6,1fr);gap:20px}
+.brand{display:grid;gap:14px;justify-items:center;text-align:center}
+.brand .im{width:100%;aspect-ratio:1;overflow:hidden;border-radius:58% 42% 55% 45%/48% 56% 44% 52%;transition:border-radius 1s,transform .6s;background:var(--white);border:1px solid var(--line)}
+.brand:hover .im{border-radius:50%;transform:translateY(-6px)}
+.brand img{width:100%;height:100%;object-fit:cover}
+.brand b{display:block;font:400 20px "Playfair Display"}.brand small{color:var(--mute);font-size:13px}
+
+/* новинки лентой */
+.news{background:var(--white)}
+.rail-wrap{overflow:hidden;margin:0 -32px;padding:0 32px}
+.rail{display:flex;gap:20px;overflow-x:auto;scrollbar-width:none;cursor:grab;user-select:none;padding-bottom:6px}
+.rail::-webkit-scrollbar{display:none}
+.rail.drag{cursor:grabbing}
+.rail .card{flex:0 0 clamp(240px,22vw,320px)}
+.rail .card .pic{background:var(--bg)}
+.rnav{display:flex;gap:8px}
+.rnav button{width:48px;height:48px;border-radius:50%;border:1px solid var(--line);background:var(--white);display:grid;place-items:center;transition:.25s}
+.rnav button:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+
+/* путь каплями */
+.path .wrap>p{color:var(--mute);max-width:48em;font-size:17px;margin-bottom:48px}
+.drops{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.drops li{background:var(--white);border:1px solid var(--line);border-radius:28px;padding:28px;position:relative;overflow:hidden}
+.drops li::before{content:"";position:absolute;right:-40px;top:-40px;width:140px;height:140px;border-radius:50%;background:var(--aqua-l);transition:transform .8s cubic-bezier(.2,.7,.2,1)}
+.drops li:hover::before{transform:scale(1.5)}
+.drops .m{display:block;font:600 11px/1 Onest;letter-spacing:.2em;text-transform:uppercase;color:var(--aqua-d);margin-bottom:46px;position:relative}
+.drops b{display:block;font:400 24px/1.15 "Playfair Display";margin-bottom:10px;position:relative}
+.drops small{color:var(--mute);font-size:14px;position:relative}
+
+/* статьи */
+.posts{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.post{display:grid;gap:14px}
+.post .im{aspect-ratio:16/10;border-radius:24px;overflow:hidden}
+.post img{width:100%;height:100%;object-fit:cover;transition:transform .9s}
+.post:hover img{transform:scale(1.05)}
+.post .meta{display:flex;gap:12px;font-size:13px;color:var(--mute)}.post .meta b{color:var(--aqua-d);font-weight:600}
+.post h3{font:400 clamp(20px,1.6vw,26px)/1.25 "Playfair Display"}
+
+/* faq + о магазине */
+.faq{background:var(--white)}
+.faq .wrap{display:grid;grid-template-columns:1fr 1.5fr;gap:clamp(40px,6vw,100px);align-items:start}
+details{border-top:1px solid var(--line)}
+details:last-child{border-bottom:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:20px;padding:24px 0;font:500 18px/1.35 Onest}
+summary::-webkit-details-marker{display:none}
+summary span{flex:none;width:34px;height:34px;border-radius:50%;background:var(--aqua-l);color:var(--aqua-d);display:grid;place-items:center;transition:.3s}
+details[open] summary span{transform:rotate(45deg);background:var(--ink);color:#fff}
+details p{padding:0 0 24px;color:var(--mute);max-width:60ch}
+.about .wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:clamp(40px,6vw,100px)}
+.about h2{font-size:clamp(28px,2.8vw,42px);margin:16px 0 20px}
+.about .lead{color:var(--mute);font-size:17px;margin-bottom:24px}
+.about .tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
+.about .tags span{padding:8px 14px;border-radius:999px;background:var(--aqua-l);color:var(--aqua-d);font-size:14px;font-weight:500}
+.about h3{font:500 18px Onest;margin-bottom:14px}
+.about .list{display:grid;gap:10px;margin-bottom:32px}
+.about .list li{display:flex;gap:12px;color:var(--mute);font-size:15px}
+.about .list svg{flex:none;color:var(--aqua);margin-top:4px}
+.steps li{display:grid;grid-template-columns:40px 1fr;gap:12px;padding:14px 0;border-top:1px solid var(--line)}
+.steps em{font:400 24px/1.2 "Playfair Display";color:var(--aqua-d);font-style:normal}
+.steps b{display:block;font-weight:600}.steps small{color:var(--mute);font-size:14px}
+
+/* подвал */
+footer{background:var(--ink);color:#a9bcbe;padding:clamp(56px,7vw,96px) 0 32px;font-size:14px;border-radius:40px 40px 0 0}
+footer .cols{display:grid;grid-template-columns:1.4fr 1fr 1.2fr 1fr 1fr;gap:32px;padding-bottom:40px;border-bottom:1px solid rgba(255,255,255,.12)}
+footer h4{font:600 11px/1 Onest;letter-spacing:.2em;text-transform:uppercase;color:#fff;margin-bottom:16px}
+footer li a{display:block;padding:4px 0}footer li a:hover{color:#fff}
+footer .contact a{display:flex;gap:10px;align-items:center;color:#fff;font-size:16px;padding:3px 0}
+footer .hrs{margin-top:10px;display:grid;gap:3px}
+footer .legal{padding-top:24px;display:grid;gap:6px;font-size:12px;color:#7d9092}
+.flogo{height:38px;width:auto;margin-bottom:18px}
+
+@media(max-width:1100px){.pgrid,.grid4{grid-template-columns:repeat(2,1fr)}.bgrid{grid-template-columns:repeat(3,1fr)}.posts{grid-template-columns:1fr}.drops{grid-template-columns:1fr 1fr}footer .cols{grid-template-columns:1fr 1fr}}
+@media(max-width:900px){.menu{display:none}.burger{display:grid}.hero .wrap{grid-template-columns:1fr}.blob{max-width:420px;margin:0 auto}.blob .k1{left:0}.blob .k2{right:0}.hero{padding-top:110px}
+  .doctor .wrap,.faq .wrap,.about .wrap{grid-template-columns:1fr}.facts{gap:12px}.facts b{font-size:30px}
+  .wrap{padding:0 20px}.rail-wrap{margin:0 -20px;padding:0 20px}.sec-head{flex-direction:column;align-items:flex-start;gap:12px}
+  .pt img{clip-path:none;opacity:.9}.pt::after{opacity:1}.pt .deco{display:none}}
+@media(max-width:560px){.pgrid{grid-template-columns:1fr 1fr;gap:12px}.pt{padding:16px;border-radius:20px}.pt .d{left:16px;right:16px;bottom:16px}.pt h3{font-size:18px}.pt p{font-size:12px}.pt .go{width:34px;height:34px;right:12px;top:12px}
+  .grid4{grid-template-columns:1fr 1fr;gap:16px 12px}.card .add{padding:9px 12px;font-size:12px}.bgrid{grid-template-columns:1fr 1fr 1fr;gap:12px}.brand b{font-size:16px}.brand small{display:none}.drops{grid-template-columns:1fr}.hero h1{font-size:40px}.rail .card{flex-basis:72vw}.blob .k b{max-width:130px}}
+</style>
+</head>
+<body>
+<header class="hdr" id="hdr"><div class="wrap">
+  <a class="logo" href="https://trihologic.by/"><img src="https://trihologic.by/wp-content/uploads/2026/03/logo-black-2.png" alt="TRIHOLOGIC"></a>
+  <ul class="menu"><li><a href="https://trihologic.by/" aria-current="page">Главная</a></li><li><a href="https://trihologic.by/catalog/">Каталог</a></li><li><a href="https://trihologic.by/sovety-trikhologa/">Советы трихолога</a></li><li><a href="https://trihologic.by/dostavka/">Доставка</a></li><li><a href="https://trihologic.by/oplata-2/">Оплата</a></li></ul>
+  <div class="tools">
+    <a href="tel:+375295254624" aria-label="Позвонить"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg></a>
+    <a href="https://trihologic.by/my-account/" aria-label="Кабинет"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></svg></a>
+    <a href="https://trihologic.by/cart/" aria-label="Корзина"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M5 8h14l-1 13H6L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><em>0</em></a>
+    <button class="burger" type="button" aria-label="Меню"><svg width="22" height="22" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div>
+</div></header>
+
+<section class="hero">
+  <canvas id="gl" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div>
+      <span class="caps">Официальный дистрибьютор Time To Grow</span>
+      <h1>Уход, который <em>назначают</em>, а не советуют</h1>
+      <p class="lead">Магазин профессиональных трихологических средств для волос и кожи головы. Подобраны практикующим врачом-трихологом: выпадение, алопеция, перхоть, истончение</p>
+      <div class="cta"><a class="btn aqua" href="#problems">Подобрать по проблеме <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a class="btn ghost" href="https://trihologic.by/catalog/">Каталог</a></div>
+      <div class="trust"><span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M6 3v6a5 5 0 0 0 10 0V3"/><path d="M11 14v2a4 4 0 0 0 8 0v-3"/><circle cx="19" cy="11" r="2"/></svg>Основатель – врач-трихолог</span><span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg>Только оригинал</span><span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M3 6h11v10H3zM14 9h4l3 3v4h-7z"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg>Доставка по Беларуси</span></div>
+    </div>
+    <div class="blob">
+      <div class="ph"><img src="https://trihologic.by/wp-content/uploads/2026/02/photo_2026-02-25_10-16-03.jpg" alt="" fetchpriority="high"></div>
+      <a class="k k1" href="https://trihologic.by/product/intensivnoe-sredstvo-dlja-vosstanovlenija-gustoty-i-tolshhiny-volos-time-to-grow-tri-jenerdzhi-faktor-5-5-loson-soderzhit-neurostab-100-ml/"><img src="https://trihologic.by/wp-content/uploads/2026/02/intensivnoe-sredstvo-dlya-vosstanovleniya-gustoty-i-tolshiny-volos-time-grow-tri-enerdzhi-faktor-55-loson-soderzhit-neurostab-100-ml-570x570.webp" alt=""><div><b>Три-Энерджи Фактор 5,5%</b><small>хит против выпадения · 389,00 BYN</small></div></a>
+      <a class="k k2" href="https://trihologic.by/product/maska-preshampun-glubokoe-ochishhenie-200-ml/"><img src="https://trihologic.by/wp-content/uploads/2026/02/maska-preshampun-glubokoe-ochishenie-200-ml-570x570.jpg" alt=""><div><b>Маска-прешампунь «Глубокое очищение»</b><small>181,00 BYN</small></div></a>
+    </div>
+  </div>
+</section>
+
+<section class="problems" id="problems"><div class="wrap">
+  <div class="sec-head"><div><span class="caps">Подобрать уход</span><h2 style="margin-top:12px">С какой <em>проблемой</em> пришли?</h2></div><a class="more" href="https://trihologic.by/product-category/naznachenie/">Все назначения <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+  <div class="pgrid"><a class="pt rv" href="https://trihologic.by/product-category/naznachenie/vypadenie-volos/" style="--img:url(https://trihologic.by/wp-content/uploads/2026/04/instories_ac4699c6-27a4-43a7-a79a-25733c173440-1024x1024.png)"><img src="https://trihologic.by/wp-content/uploads/2026/04/instories_ac4699c6-27a4-43a7-a79a-25733c173440-1024x1024.png" alt="" loading="lazy"><span class="deco"></span><span class="n">01</span><span class="go"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span><div class="d"><h3>Выпадение волос</h3><p>остановить на ранней стадии</p></div></a><a class="pt rv" href="https://trihologic.by/product-category/naznachenie/perhot-seboreja-seborejnyj-dermatit/" style="--img:url(https://trihologic.by/wp-content/uploads/2026/04/instories_746b7ffc-d97f-4984-8f40-97a4f507d31d-1024x1024.png)"><img src="https://trihologic.by/wp-content/uploads/2026/04/instories_746b7ffc-d97f-4984-8f40-97a4f507d31d-1024x1024.png" alt="" loading="lazy"><span class="deco"></span><span class="n">02</span><span class="go"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span><div class="d"><h3>Перхоть и себорея</h3><p>зуд, жирность, шелушение</p></div></a><a class="pt rv" href="https://trihologic.by/product-category/naznachenie/stimuljacija-rosta-volos/" style="--img:url(https://trihologic.by/wp-content/uploads/2026/04/instories_eeb78ea8-6ebe-410f-a83d-ce0651433e41-1024x1024.png)"><img src="https://trihologic.by/wp-content/uploads/2026/04/instories_eeb78ea8-6ebe-410f-a83d-ce0651433e41-1024x1024.png" alt="" loading="lazy"><span class="deco"></span><span class="n">03</span><span class="go"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span><div class="d"><h3>Стимуляция роста</h3><p>плотность и толщина волос</p></div></a><a class="pt rv" href="https://trihologic.by/product-category/naznachenie/zashhita-volos/" style="--img:url(https://trihologic.by/wp-content/uploads/2026/04/instories_d4049ca2-a0ce-41f1-9ec8-f13b9929417c-1024x1024.png)"><img src="https://trihologic.by/wp-content/uploads/2026/04/instories_d4049ca2-a0ce-41f1-9ec8-f13b9929417c-1024x1024.png" alt="" loading="lazy"><span class="deco"></span><span class="n">04</span><span class="go"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span><div class="d"><h3>Защита волос</h3><p>окрашенные, повреждённые, длина</p></div></a></div>
+  <div class="chips rv"><a href="https://trihologic.by/product-category/naznachenie/androgeneticheskaja-alopecija/">Андрогенетическая алопеция</a><a href="https://trihologic.by/product-category/naznachenie/diffuznaja-alopecija/">Диффузная алопеция</a><a href="https://trihologic.by/product-category/naznachenie/ochagovaja-alopecija/">Очаговая алопеция</a><a href="https://trihologic.by/product-category/naznachenie/zhirnaja-kozha-golovy/">Жирная кожа головы</a><a href="https://trihologic.by/product-category/naznachenie/suhaja-chuvstvitelnaja-kozha-golovy/">Сухая и чувствительная кожа</a><a href="https://trihologic.by/product-category/dlja-kogo/deti/">Детям</a><a href="https://trihologic.by/product-category/dlja-kogo/muzhchiny/">Мужчинам</a><a href="https://trihologic.by/product-category/dlja-kogo/beremennost-i-grudnoe-vskarmlivanie/">При беременности и ГВ</a></div>
+</div></section>
+
+<section class="doctor"><div class="wrap">
+  <div class="rv">
+    <span class="caps">Почему TRIHOLOGIC</span>
+    <p class="q">«Наша задача – не продать средство, а подобрать то, что <b>действительно даст результат</b>»</p>
+    <p>Основатель TRIHOLOGIC – практикующий врач-трихолог. Поэтому ассортимент сформирован не как витрина косметики, а как система решений, которые реально используются в работе с пациентами</p>
+    <a class="btn" href="#consult">Бесплатная консультация <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <div class="facts" style="margin-top:36px"><div><b>6</b><small>профессиональных брендов, только официальные поставщики</small></div><div><b>12</b><small>назначений в каталоге: от АГА до чувствительной кожи</small></div><div><b>3–4</b><small>месяца до честной первой оценки результата</small></div></div>
+  </div>
+  <div class="ph rv"><img src="https://trihologic.by/wp-content/uploads/2026/02/photo_2026-02-25_10-16-03.jpg" alt="" loading="lazy"><div class="b"><b>Основатель TRIHOLOGIC</b><small>практикующий врач-трихолог, Минск</small></div></div>
+</div></section>
+
+<section class="hits"><div class="wrap">
+  <div class="sec-head"><h2>Хиты</h2><a class="more" href="https://trihologic.by/catalog/">Весь каталог <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+  <div class="grid4" id="tilt"><article class="card rv">
+  <a class="pic" href="https://trihologic.by/product/maska-preshampun-glubokoe-ochishhenie-200-ml/"><img src="https://trihologic.by/wp-content/uploads/2026/02/maska-preshampun-glubokoe-ochishenie-200-ml-570x570.jpg" alt="Маска-прешампунь «Глубокое очищение», 200 мл" loading="lazy" draggable="false"></a>
+  <span class="tag">Пилинг кожи головы</span>
+  <h3><a href="https://trihologic.by/product/maska-preshampun-glubokoe-ochishhenie-200-ml/" draggable="false">Маска-прешампунь «Глубокое очищение», 200 мл</a></h3>
+  <div class="row"><span class="price">181,00<small> BYN</small></span><button class="add" type="button">В корзину</button></div>
+</article><article class="card rv">
+  <a class="pic" href="https://trihologic.by/product/kofeptid-aktivator-rosta-volos-time-to-grow/"><img src="https://trihologic.by/wp-content/uploads/2026/02/kofeptid-aktivator-rosta-volos-time-grow-570x570.jpg" alt="КОФЕПТИД Активатор роста волос, 100 мл" loading="lazy" draggable="false"></a>
+  <span class="tag">Андрогенетическая алопеция</span>
+  <h3><a href="https://trihologic.by/product/kofeptid-aktivator-rosta-volos-time-to-grow/" draggable="false">КОФЕПТИД Активатор роста волос, 100 мл</a></h3>
+  <div class="row"><span class="price">333,00<small> BYN</small></span><button class="add" type="button">В корзину</button></div>
+</article><article class="card rv">
+  <a class="pic" href="https://trihologic.by/product/intensivnoe-sredstvo-dlja-vosstanovlenija-gustoty-i-tolshhiny-volos-time-to-grow-tri-jenerdzhi-faktor-5-5-loson-soderzhit-neurostab-100-ml/"><img src="https://trihologic.by/wp-content/uploads/2026/02/intensivnoe-sredstvo-dlya-vosstanovleniya-gustoty-i-tolshiny-volos-time-grow-tri-enerdzhi-faktor-55-loson-soderzhit-neurostab-100-ml-570x570.webp" alt="Три-Энерджи Фактор 5,5% лосьон, 100 мл" loading="lazy" draggable="false"></a>
+  <span class="tag">Выпадение волос</span>
+  <h3><a href="https://trihologic.by/product/intensivnoe-sredstvo-dlja-vosstanovlenija-gustoty-i-tolshhiny-volos-time-to-grow-tri-jenerdzhi-faktor-5-5-loson-soderzhit-neurostab-100-ml/" draggable="false">Три-Энерджи Фактор 5,5% лосьон, 100 мл</a></h3>
+  <div class="row"><span class="price">389,00<small> BYN</small></span><button class="add" type="button">В корзину</button></div>
+</article><article class="card rv">
+  <a class="pic" href="https://trihologic.by/product/jekzosomno-peptidnyj-stimuljator-rosta-volos-time-to-grow-bio-jenerdzhi-soderzhit-neurostab-100-ml/"><img src="https://trihologic.by/wp-content/uploads/2026/02/ekzosomno-peptidnyj-stimulyator-rosta-volos-time-grow-bio-enerdzhi-soderzhit-neurostab-100-ml-570x570.png" alt="Экзосомно-пептидный стимулятор роста волос БИО-ЭНЕРДЖИ, 100 мл" loading="lazy" draggable="false"></a>
+  <span class="tag">Стимуляция роста</span>
+  <h3><a href="https://trihologic.by/product/jekzosomno-peptidnyj-stimuljator-rosta-volos-time-to-grow-bio-jenerdzhi-soderzhit-neurostab-100-ml/" draggable="false">Экзосомно-пептидный стимулятор роста волос БИО-ЭНЕРДЖИ, 100 мл</a></h3>
+  <div class="row"><span class="price">456,00<small> BYN</small></span><button class="add" type="button">В корзину</button></div>
+</article><article class="card rv">
+  <a class="pic" href="https://trihologic.by/product/shampun-ezhednevnyj-immunitet-dlja-chuvstvitelnoj-kozhi-suhogo-i-normalnogo-tipa-200-ml/"><img src="https://trihologic.by/wp-content/uploads/2026/02/shampun-ezhednevnyj-immunitet-dlya-chuvstvitelnoj-kozhi-suhogo-i-normalnogo-tipa-200-ml-570x570.jpg" alt="Шампунь «Ежедневный иммунитет» для чувствительной кожи, 200 мл" loading="lazy" draggable="false"></a>
+  <span class="tag">Сухая / чувствительная кожа</span>
+  <h3><a href="https://trihologic.by/product/shampun-ezhednevnyj-immunitet-dlja-chuvstvitelnoj-kozhi-suhogo-i-normalnogo-tipa-200-ml/" draggable="false">Шампунь «Ежедневный иммунитет» для чувствительной кожи, 200 мл</a></h3>
+  <div class="row"><span class="price">131,00<small> BYN</small></span><button class="add" type="button">В корзину</button></div>
+</article><article class="card rv">
+  <a class="pic" href="https://trihologic.by/product/loson-time-to-grow-dlja-ukreplenija-i-vosstanovlenija-rosta-volos-u-detej-100-ml/"><img src="https://trihologic.by/wp-content/uploads/2026/02/loson-time-grow-dlya-ukrepleniya-i-vosstanovleniya-rosta-volos-u-detej-100-ml-570x570.jpg" alt="Лосьон для укрепления и восстановления роста волос у детей, 100 мл" loading="lazy" draggable="false"></a>
+  <span class="tag">Дети</span>
+  <h3><a href="https://trihologic.by/product/loson-time-to-grow-dlja-ukreplenija-i-vosstanovlenija-rosta-volos-u-detej-100-ml/" draggable="false">Лосьон для укрепления и восстановления роста волос у детей, 100 мл</a></h3>
+  <div class="row"><span class="price">249,00<small> BYN</small></span><button class="add" type="button">В корзину</button></div>
+</article><article class="card rv">
+  <a class="pic" href="https://trihologic.by/product/reguljator-rosta-volos-time-to-grow-dna-peptide-soderzhit-neurostab-100-ml/"><img src="https://trihologic.by/wp-content/uploads/2026/02/regulyator-rosta-volos-time-grow-dna-peptide-soderzhit-neurostab-100-ml-570x570.webp" alt="Регулятор роста волос «DNA-PEPTIDE», 100 мл" loading="lazy" draggable="false"></a>
+  <span class="tag">Выпадение волос</span>
+  <h3><a href="https://trihologic.by/product/reguljator-rosta-volos-time-to-grow-dna-peptide-soderzhit-neurostab-100-ml/" draggable="false">Регулятор роста волос «DNA-PEPTIDE», 100 мл</a></h3>
+  <div class="row"><span class="price">444,00<small> BYN</small></span><button class="add" type="button">В корзину</button></div>
+</article><article class="card rv">
+  <a class="pic" href="https://trihologic.by/product/loson-dlja-rosta-volos-charismo-dekohair-60-ml/"><img src="https://trihologic.by/wp-content/uploads/2026/04/img_6997-570x570.jpeg" alt="Лосьон для роста волос Charismo, 60 мл" loading="lazy" draggable="false"></a>
+  <span class="tag">Стимуляция роста</span>
+  <h3><a href="https://trihologic.by/product/loson-dlja-rosta-volos-charismo-dekohair-60-ml/" draggable="false">Лосьон для роста волос Charismo, 60 мл</a></h3>
+  <div class="row"><span class="price">300,00<small> BYN</small></span><button class="add" type="button">В корзину</button></div>
+</article></div>
+</div></section>
+
+<section class="news"><div class="wrap">
+  <div class="sec-head"><h2>Новинки</h2><div class="rnav"><button type="button" data-rail="prev" aria-label="Назад"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button><button type="button" data-rail="next" aria-label="Вперёд"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div></div>
+  <div class="rail-wrap"><div class="rail" id="rail"><article class="card ">
+  <a class="pic" href="https://trihologic.by/product/dsd-de-luxe-9-4-1-exogrow-booster-lotion-100-ml/"><img src="https://trihologic.by/wp-content/uploads/2026/09/9.4.1-dsd-exogrow-booster-lotion-loson-dlya-volos--e1789058716943-570x570.webp" alt="DSD de Luxe 9.4.1 Exogrow Booster Lotion, 100 мл" loading="lazy" draggable="false"></a>
+  <span class="tag">Выпадение волос</span>
+  <h3><a href="https://trihologic.by/product/dsd-de-luxe-9-4-1-exogrow-booster-lotion-100-ml/" draggable="false">DSD de Luxe 9.4.1 Exogrow Booster Lotion, 100 мл</a></h3>
+  <div class="row"><span class="price">482,00<small> BYN</small></span><button class="add" type="button">В корзину</button></div>
+</article><article class="card ">
+  <a class="pic" href="https://trihologic.by/product/dsd-de-luxe-9-1-exogrow-booster-shampoo-200-ml/"><img src="https://trihologic.by/wp-content/uploads/2026/09/dlja-kompleksnogo-uhoda-posmotrite-drugie-sredstva-pri-vypadenii-volos-i-professionalnuju-kosmetiku-dsd-de-luxe-e1789055128480-570x570.png" alt="Шампунь-бустер с экзосомами DSD de Luxe 9.1 Exogrow, 200 мл" loading="lazy" draggable="false"></a>
+  <span class="tag">Андрогенетическая алопеция</span>
+  <h3><a href="https://trihologic.by/product/dsd-de-luxe-9-1-exogrow-booster-shampoo-200-ml/" draggable="false">Шампунь-бустер с экзосомами DSD de Luxe 9.1 Exogrow, 200 мл</a></h3>
+  <div class="row"><span class="price">107,00<small> BYN</small></span><button class="add" type="button">В корзину</button></div>
+</article><article class="card ">
+  <a class="pic" href="https://trihologic.by/product/syvorotka-dlja-detskih-volos-uhod-i-zashhita/"><img src="https://trihologic.by/wp-content/uploads/2026/08/2025-05-22-13-56-33-bradius1smoothing1-e1786622893245-570x570.jpg" alt="Сыворотка для детских волос «Уход и Защита»" loading="lazy" draggable="false"></a>
+  <span class="tag">Дети</span>
+  <h3><a href="https://trihologic.by/product/syvorotka-dlja-detskih-volos-uhod-i-zashhita/" draggable="false">Сыворотка для детских волос «Уход и Защита»</a></h3>
+  <div class="row"><span class="price">146,00<small> BYN</small></span><button class="add" type="button">В корзину</button></div>
+</article><article class="card ">
+  <a class="pic" href="https://trihologic.by/product/loson-dlja-kozhi-golovy-protiv-vypadenija-volos-philip-martin-s-scalp-nutriment-professional-12-fluids/"><img src="https://trihologic.by/wp-content/uploads/2026/08/philip_martins_losion-570x570.png" alt="Лосьон для кожи головы Philip Martin’s Scalp Nutriment, 12 флаконов" loading="lazy" draggable="false"></a>
+  <span class="tag">Выпадение волос</span>
+  <h3><a href="https://trihologic.by/product/loson-dlja-kozhi-golovy-protiv-vypadenija-volos-philip-martin-s-scalp-nutriment-professional-12-fluids/" draggable="false">Лосьон для кожи головы Philip Martin’s Scalp Nutriment, 12 флаконов</a></h3>
+  <div class="row"><span class="price">265,99<small> BYN</small></span><button class="add" type="button">В корзину</button></div>
+</article><article class="card ">
+  <a class="pic" href="https://trihologic.by/product/shhetka-dlja-volos-manta-brush-orange/"><img src="https://trihologic.by/wp-content/uploads/2026/08/kntx4p2jt3c74a2m6a0j1h509o5nq7q2-570x570.webp" alt="Щётка для волос MANTA Brush Orange" loading="lazy" draggable="false"></a>
+  <span class="tag">Аксессуары</span>
+  <h3><a href="https://trihologic.by/product/shhetka-dlja-volos-manta-brush-orange/" draggable="false">Щётка для волос MANTA Brush Orange</a></h3>
+  <div class="row"><span class="price">129,99<small> BYN</small></span><button class="add" type="button">В корзину</button></div>
+</article><article class="card ">
+  <a class="pic" href="https://trihologic.by/product/shhetka-dlja-volos-janeke-superbrush-arancio-fluorescente-orange/"><img src="https://trihologic.by/wp-content/uploads/2026/08/janeke_orange-2-570x570.png" alt="Щётка Janeke Superbrush Orange" loading="lazy" draggable="false"></a>
+  <span class="tag">Аксессуары</span>
+  <h3><a href="https://trihologic.by/product/shhetka-dlja-volos-janeke-superbrush-arancio-fluorescente-orange/" draggable="false">Щётка Janeke Superbrush Orange</a></h3>
+  <div class="row"><span class="price">65,99<small> BYN</small></span><button class="add" type="button">В корзину</button></div>
+</article><article class="card ">
+  <a class="pic" href="https://trihologic.by/product/shhetka-dlja-volos-janeke-superbrush-giallo-fluorescente/"><img src="https://trihologic.by/wp-content/uploads/2026/08/janeke_yellow-570x570.png" alt="Щётка Janeke Superbrush Yellow" loading="lazy" draggable="false"></a>
+  <span class="tag">Аксессуары</span>
+  <h3><a href="https://trihologic.by/product/shhetka-dlja-volos-janeke-superbrush-giallo-fluorescente/" draggable="false">Щётка Janeke Superbrush Yellow</a></h3>
+  <div class="row"><span class="price">65,99<small> BYN</small></span><button class="add" type="button">В корзину</button></div>
+</article><article class="card ">
+  <a class="pic" href="https://trihologic.by/product/koncentrat-buster-dlja-vosstanovlenija-rosta-volos-tri-jenerdzhi-faktor-5-pena-150-ml/"><img src="https://trihologic.by/wp-content/uploads/2026/05/2025-05-06-15-09-48-bradius1smoothing1-e1779960457842-570x570.webp" alt="Концентрат-бустер «Три-Энерджи Фактор» 5%, пена 150 мл" loading="lazy" draggable="false"></a>
+  <span class="tag">Стимуляция роста</span>
+  <h3><a href="https://trihologic.by/product/koncentrat-buster-dlja-vosstanovlenija-rosta-volos-tri-jenerdzhi-faktor-5-pena-150-ml/" draggable="false">Концентрат-бустер «Три-Энерджи Фактор» 5%, пена 150 мл</a></h3>
+  <div class="row"><span class="price">366,00<small> BYN</small></span><button class="add" type="button">В корзину</button></div>
+</article></div></div>
+</div></section>
+
+<section class="brands"><div class="wrap">
+  <div class="sec-head"><h2>Бренды</h2></div>
+  <div class="bgrid"><a class="brand rv" href="https://trihologic.by/бренд/time-to-grow/"><div class="im"><img src="https://trihologic.by/wp-content/uploads/2026/03/4155a647060da31b8778682f194c39cc_0357c084-f9d2-4037-9070-e8db4fb62cd0-1024x572.png" alt="Time to Grow" loading="lazy"></div><div><b>Time to Grow</b><small>Сколково · официальный дистрибьютор</small></div></a><a class="brand rv" href="https://trihologic.by/бренд/dsd-de-luxe/"><div class="im"><img src="https://trihologic.by/wp-content/uploads/2026/03/1e0173d426cae02b9d7e85c8f3ef1842_b92b67ed_ff69_43a0_adcf_3799ce66781f-1024x572.png" alt="DSD de Luxe" loading="lazy"></div><div><b>DSD de Luxe</b><small>Испания · против выпадения</small></div></a><a class="brand rv" href="https://trihologic.by/бренд/follimed/"><div class="im"><img src="https://trihologic.by/wp-content/uploads/2026/05/chatgpt-image-1-maja-2026-g.-10_40_29-1024x1024.png" alt="Follimed" loading="lazy"></div><div><b>Follimed</b><small>ампулы и лосьоны</small></div></a><a class="brand rv" href="https://trihologic.by/бренд/crescina/"><div class="im"><img src="https://trihologic.by/wp-content/uploads/2026/04/chatgpt-image-1-maja-2026-g.-02_39_01-1024x1024.png" alt="Crescina" loading="lazy"></div><div><b>Crescina</b><small>Швейцария · рост волос</small></div></a><a class="brand rv" href="https://trihologic.by/бренд/janeke/"><div class="im"><img src="https://trihologic.by/wp-content/uploads/2026/08/janeke_orange1.png" alt="Janeke" loading="lazy"></div><div><b>Janeke</b><small>Италия · щётки</small></div></a><a class="brand rv" href="https://trihologic.by/бренд/dekohair/"><div class="im"><img src="https://trihologic.by/wp-content/uploads/2026/03/f40729187c52629b73822a89a4d5c3c5_69e8c83a-3020-47f8-acde-a7894b9be0af-1024x1024.png" alt="Dekohair" loading="lazy"></div><div><b>Dekohair</b><small>лосьоны Charismo</small></div></a></div>
+</div></section>
+
+<section class="path"><div class="wrap">
+  <span class="caps">Как это работает</span>
+  <h2 style="margin:12px 0 18px">Путь к <em>результату</em></h2>
+  <p>Реакция на средства индивидуальна, а эффект при выпадении оценивают не раньше чем через 3–4 месяца. Мы говорим о сроках честно и сопровождаем на каждом этапе</p>
+  <ol class="drops">
+    <li class="rv"><span class="m">Неделя 0</span><b>Подбор схемы</b><small>по проблеме, давности и назначению врача. Бесплатно, по телефону или в мессенджере</small></li>
+    <li class="rv"><span class="m">Месяц 1</span><b>Кожа головы</b><small>очищение, снятие зуда и жирности, подготовка к активным средствам</small></li>
+    <li class="rv"><span class="m">Месяцы 2–3</span><b>Активная фаза</b><small>лосьоны и стимуляторы роста ежедневно, фото для сравнения раз в месяц</small></li>
+    <li class="rv"><span class="m">Месяц 4</span><b>Оценка результата</b><small>трихоскопия или фототрихограмма у врача, корректировка схемы</small></li>
+  </ol>
+</div></section>
+
+<section class="tips"><div class="wrap">
+  <div class="sec-head"><h2>Советы трихолога</h2><a class="more" href="https://trihologic.by/sovety-trikhologa/">Все статьи <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+  <div class="posts"><a class="post rv" href="https://trihologic.by/2026/03/03/alopecija-prichiny-simptomy-metody-borby/"><div class="im"><img src="https://trihologic.by/wp-content/uploads/2026/03/photo_2026-02-25_10-32-09-400x270.jpg" alt="" loading="lazy"></div><div class="meta"><span>3 марта 2026</span><b>Выпадение волос</b></div><h3>Выпадение волос: с чего начать, чтобы не стало хуже</h3></a><a class="post rv" href="https://trihologic.by/2026/03/03/kak-primenjat-ampuly-ot-vypadenija-volos/"><div class="im"><img src="https://trihologic.by/wp-content/uploads/2026/03/chatgpt-image-5-maja-2026-g.-14_54_38-e1777982220846-400x270.png" alt="" loading="lazy"></div><div class="meta"><span>3 марта 2026</span><b>Выпадение волос</b></div><h3>Андрогенетическая алопеция (АГА): можно ли остановить выпадение и что реально работает</h3></a><a class="post rv" href="https://trihologic.by/2026/03/03/jeffektivnye-metody-ukreplenija-volos-dlja-borby-s-vypadeniem/"><div class="im"><img src="https://trihologic.by/wp-content/uploads/2026/03/photo_2026-02-25_10-32-18-400x270.jpg" alt="" loading="lazy"></div><div class="meta"><span>3 марта 2026</span><b>Выпадение волос</b></div><h3>Эффективные методы укрепления волос для борьбы с выпадением</h3></a></div>
+</div></section>
+
+<section class="faq" id="consult"><div class="wrap">
+  <div class="rv"><span class="caps">FAQ</span><h2 style="margin:12px 0 16px">Частые <em>вопросы</em></h2><p style="color:var(--mute);margin-bottom:22px">Не нашли ответ – позвоните, подскажем за пять минут</p><a class="btn ghost" href="tel:+375295254624"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg> +375 29 525 46 24</a></div>
+  <div class="rv"><details open><summary>Как понять, какое средство подойдёт именно мне?<span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></summary><p>Подбор зависит от причины: выпадение, жирная кожа головы, перхоть, истончение волос – у каждой задачи свои решения, поэтому мы не советуем выбирать «наугад» или только по отзывам. Все средства в магазине используются в реальной практике трихологов. Обратитесь за бесплатной консультацией – подберём уход под вашу ситуацию – или выберите готовое решение по вашей проблеме в каталоге.</p></details><details><summary>Нужно ли идти к трихологу перед покупкой?<span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></summary><p>Не всегда, но в ряде случаев желательно: при длительном выпадении, очагах, быстром истончении и когда обычные средства не помогли. Основатель магазина – практикующий врач-трихолог, поэтому при подборе мы честно скажем, когда без очного приёма не обойтись.</p></details><details><summary>Это оригинальная продукция?<span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></summary><p>Да, мы работаем только с официальными поставщиками и брендами. TRIHOLOGIC – официальный дистрибьютор профессиональной трихологической косметики Time to Grow.</p></details><details><summary>Через сколько будет эффект?<span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></summary><p>Зависит от вида проблемы, её выраженности и длительности, а также от общего состояния организма. Например, при андрогенетической алопеции врач оценивает эффективность терапии не ранее чем через 3–4 месяца: по обзорной фотографии, трихоскопии и фототрихограмме. Реакция на средства индивидуальна, поэтому важно точно выполнять рекомендации врача.</p></details><details><summary>Если у меня АГА, значит средства не помогут?<span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></summary><p>АГА связана с генетической чувствительностью фолликулов к андрогенам, поэтому «вылечить навсегда» её одним шампунем или лосьоном невозможно. Но остановить выпадение, удержать плотность и вернуть толщину волос – реальная задача, с которой работают средства из нашего каталога в комплексе с назначениями врача.</p></details></div>
+</div></section>
+
+<section class="about"><div class="wrap">
+  <div class="rv"><span class="caps">О магазине</span><h2>Профессиональные средства против выпадения волос в Минске</h2><p class="lead">TRIHOLOGIC – специализированный трихологический магазин, где средства подбираются по принципу врачебного назначения, а не «по популярности». Основатель магазина – практикующий врач-трихолог, поэтому ассортимент собран как система решений, которые реально используются в работе с пациентами.</p><div class="tags"><span>выпадение волос</span><span>андрогенетическая алопеция (АГА)</span><span>истончение и потеря плотности</span><span>жирная кожа головы, перхоть, зуд</span></div><p style="color:var(--mute);font-size:15px">Пептидные комплексы, стимуляторы роста, нейроактивные формулы, экстракты – клинически используемые активы, направленные на укрепление и восстановление волос.</p></div>
+  <div class="rv"><h3>Кому подойдёт</h3><ul class="list"><li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg><span>началось выпадение волос и важно остановить его на ранней стадии</span></li><li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg><span>выпадение длится долго и не помогли обычные средства</span></li><li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg><span>волосы стали тоньше, редеют или теряют объём</span></li><li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg><span>есть проблемы кожи головы: зуд, жирность, перхоть</span></li><li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg><span>уже есть назначение от врача</span></li></ul><h3>Как купить</h3><ol class="steps"><li><em>01</em><div><b>Всё в наличии</b><small>склад в Минске, отправляем в день заказа</small></div></li><li><em>02</em><div><b>Доставка</b><small>курьером по Минску, Белпочтой и Европочтой по всей Беларуси</small></div></li><li><em>03</em><div><b>Помощь в подборе</b><small>позвоните или оставьте заявку – подберём уход под вашу ситуацию</small></div></li></ol></div>
+</div></section>
+
+<footer><div class="wrap">
+  <div class="cols">
+    <div><img class="flogo" src="https://trihologic.by/wp-content/uploads/2026/03/logo-white-2.png" alt="TRIHOLOGIC"><div class="contact"><a href="tel:+375295254624"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>+375 29 525 46 24</a><a href="mailto:kris.petrovecz@mail.ru"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>kris.petrovecz@mail.ru</a><a href="https://www.instagram.com/trihologic_by/"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>@trihologic_by</a><div class="hrs"><span>Пн–Пт: 10:00–20:00</span><span>Сб: 11:00–18:00</span><span>Вс: выходной</span></div></div></div>
+    <div><h4>Средства</h4><ul><li><a href="https://trihologic.by/product-category/sredstva/shampuni/">Шампуни</a></li><li><a href="https://trihologic.by/product-category/sredstva/pilingi/">Пилинги</a></li><li><a href="https://trihologic.by/product-category/sredstva/balzamy-kondicionery/">Бальзамы / кондиционеры</a></li><li><a href="https://trihologic.by/product-category/sredstva/maski/">Маски</a></li><li><a href="https://trihologic.by/product-category/sredstva/syvorotki/">Сыворотки</a></li><li><a href="https://trihologic.by/product-category/sredstva/losony-toniki/">Лосьоны</a></li><li><a href="https://trihologic.by/product-category/sredstva/termozashhita/">Термозащита</a></li><li><a href="https://trihologic.by/product-category/sredstva/uhod-za-dlinoj/">Уход за длиной</a></li><li><a href="https://trihologic.by/product-category/sredstva/dlja-brovej-i-resnic/">Для бровей и ресниц</a></li><li><a href="https://trihologic.by/product-category/sredstva/nabory/">Наборы</a></li></ul></div><div><h4>Назначение</h4><ul><li><a href="https://trihologic.by/product-category/naznachenie/zashhita-volos/">Защита волос</a></li><li><a href="https://trihologic.by/product-category/naznachenie/androgeneticheskaja-alopecija/">Андрогенетическая алопеция</a></li><li><a href="https://trihologic.by/product-category/naznachenie/vypadenie-volos/">Выпадение волос</a></li><li><a href="https://trihologic.by/product-category/naznachenie/stimuljacija-rosta-volos/">Стимуляция роста волос</a></li><li><a href="https://trihologic.by/product-category/naznachenie/ochagovaja-alopecija/">Очаговая алопеция</a></li><li><a href="https://trihologic.by/product-category/naznachenie/diffuznaja-alopecija/">Диффузная алопеция</a></li><li><a href="https://trihologic.by/product-category/naznachenie/okrashennye-i-povrezhdennye-volosy/">Окрашенные и повреждённые волосы</a></li><li><a href="https://trihologic.by/product-category/naznachenie/perhot-seboreja-seborejnyj-dermatit/">Перхоть, себорея, себорейный дерматит</a></li><li><a href="https://trihologic.by/product-category/naznachenie/normalnaja-kozha-golovy/">Нормальная кожа головы</a></li><li><a href="https://trihologic.by/product-category/naznachenie/suhaja-chuvstvitelnaja-kozha-golovy/">Сухая / чувствительная кожа головы</a></li><li><a href="https://trihologic.by/product-category/naznachenie/zhirnaja-kozha-golovy/">Жирная кожа головы</a></li><li><a href="https://trihologic.by/product-category/naznachenie/resnicy-i-brovi/">Ресницы и брови</a></li></ul></div><div><h4>Для кого</h4><ul><li><a href="https://trihologic.by/product-category/dlja-kogo/zhenshhiny/">Женщины</a></li><li><a href="https://trihologic.by/product-category/dlja-kogo/muzhchiny/">Мужчины</a></li><li><a href="https://trihologic.by/product-category/dlja-kogo/deti/">Дети</a></li><li><a href="https://trihologic.by/product-category/dlja-kogo/beremennost-i-grudnoe-vskarmlivanie/">Беременность и грудное вскармливание</a></li></ul></div>
+    <div><h4>Информация</h4><ul><li><a href="[object Object]">Доставка</a></li><li><a href="https://trihologic.by/oplata-2/">Оплата</a></li><li><a href="https://trihologic.by/prava-potrebitelja-i-vozvrat-tovara-2/">Возврат товара</a></li><li><a href="https://trihologic.by/sovety-trikhologa/">Советы трихолога</a></li><li><a href="https://trihologic.by/product-category/aksessuary/raschjoski/">Расчёски</a></li></ul></div>
+  </div>
+  <div class="legal"><p>ИП Петровец Наталия Степановна, УНП 291896418. Республика Беларусь, г. Столин, ул. 50 лет Победы 4, 225501</p><p>Свидетельство о регистрации №7-267, выдано 2 марта 2026 года Столинским райисполкомом. Интернет-магазин включён в Торговый реестр Республики Беларусь 24.03.2026 г. за №772406</p><p>trihologic.by © 2026. Все права защищены</p></div>
+</div></footer>
+
+<nav class="sw" aria-label="Варианты главной"><a href="v1.html">Вариант 1</a><a href="v2.html">Вариант 2</a><a href="wow.html">WOW</a><a href="wow2.html" class="on">WOW 2</a><a href="index.html">Все</a></nav>
+<style>.sw{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:9999;display:flex;gap:2px;padding:4px;border-radius:999px;background:rgba(14,22,24,.88);backdrop-filter:blur(10px);font:500 12px/1 system-ui,sans-serif;box-shadow:0 8px 30px rgba(0,0,0,.25)}.sw a{padding:9px 14px;border-radius:999px;text-decoration:none;white-space:nowrap;color:#eef5f6}.sw a.on{background:#eef5f6;color:#0e1618}@media(max-width:560px){.sw{bottom:8px}.sw a{padding:8px 10px;font-size:11px}}</style>
+<script id="fs" type="x-shader/x-fragment">
+precision highp float;uniform vec2 r;uniform float t;uniform vec2 m;uniform float mp;
+float hash(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}
+float noise(vec2 p){vec2 i=floor(p),f=fract(p);f=f*f*(3.-2.*f);return mix(mix(hash(i),hash(i+vec2(1,0)),f.x),mix(hash(i+vec2(0,1)),hash(i+vec2(1,1)),f.x),f.y);}
+float fbm(vec2 p){float v=0.,a=.5;for(int i=0;i<4;i++){v+=a*noise(p);p*=2.03;a*=.5;}return v;}
+void main(){vec2 p=(gl_FragCoord.xy-.5*r)/r.y;float n=fbm(p*1.4+vec2(t*.05,-t*.03));
+ float d=0.;
+ d+=.19/(length(p-vec2(sin(t*.21)*.55+.25,cos(t*.17)*.28-.05))+.08);
+ d+=.16/(length(p-vec2(cos(t*.13)*.6-.35,sin(t*.23)*.3+.1))+.08);
+ d+=.14/(length(p-vec2(sin(t*.29+2.)*.45,cos(t*.19+1.)*.35-.15))+.08);
+ d+=.12/(length(p-vec2(cos(t*.11+4.)*.7,sin(t*.27+3.)*.22+.25))+.08);
+ d+=.11/(length(p-vec2(sin(t*.17+1.)*.3-.6,cos(t*.21+2.)*.4))+.08);
+ vec2 mm=(m-.5*r)/r.y;d+=mp*.2/(length(p-mm)+.1);
+ d+=(n-.5)*1.1;
+ vec3 bg=vec3(.965,.980,.984),lt=vec3(.80,.92,.94),aq=vec3(.42,.78,.83),deep=vec3(.106,.612,.690);
+ vec3 c=mix(bg,lt,smoothstep(.55,1.15,d));
+ c=mix(c,aq,smoothstep(1.15,1.9,d));
+ c=mix(c,deep,smoothstep(1.9,3.2,d)*.85);
+ float rim=smoothstep(1.1,1.16,d)-smoothstep(1.16,1.45,d);c+=rim*vec3(.07,.09,.09);
+ float hl=smoothstep(1.7,2.6,d)*pow(max(0.,1.-length(p*1.2-vec2(.1,.3))),3.)*.3;c+=hl;
+ gl_FragColor=vec4(c,1.);}
+</script>
+<script>
+(function(){
+  var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px'});
+  document.querySelectorAll('.rv').forEach(function(el,i){el.style.transitionDelay=(i%4)*80+'ms';io.observe(el)});
+  var hdr=document.getElementById('hdr');addEventListener('scroll',function(){hdr.classList.toggle('on',scrollY>40)},{passive:true});
+
+  /* WebGL жидкость */
+  var cv=document.getElementById('gl'),gl=cv.getContext('webgl',{antialias:false,alpha:false});
+  if(gl){var vs='attribute vec2 a;void main(){gl_Position=vec4(a,0.,1.);}';
+    function sh(t,s){var o=gl.createShader(t);gl.shaderSource(o,s);gl.compileShader(o);return o}
+    var pr=gl.createProgram();gl.attachShader(pr,sh(gl.VERTEX_SHADER,vs));gl.attachShader(pr,sh(gl.FRAGMENT_SHADER,document.getElementById('fs').textContent));gl.linkProgram(pr);gl.useProgram(pr);
+    var b=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,b);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,1,-1,-1,1,1,1]),gl.STATIC_DRAW);
+    var a=gl.getAttribLocation(pr,'a');gl.enableVertexAttribArray(a);gl.vertexAttribPointer(a,2,gl.FLOAT,false,0,0);
+    var uR=gl.getUniformLocation(pr,'r'),uT=gl.getUniformLocation(pr,'t'),uM=gl.getUniformLocation(pr,'m'),uP=gl.getUniformLocation(pr,'mp');
+    var dpr=Math.min(1.5,devicePixelRatio||1),mx=-9999,my=-9999,tx=-9999,ty=-9999,mp=0,tp=0,raf,vis=true;
+    function resize(){var r=cv.parentElement.getBoundingClientRect();cv.width=r.width*dpr;cv.height=r.height*dpr;gl.viewport(0,0,cv.width,cv.height)}
+    resize();addEventListener('resize',resize);
+    cv.parentElement.addEventListener('pointermove',function(e){var r=cv.getBoundingClientRect();tx=(e.clientX-r.left)*dpr;ty=(r.height-(e.clientY-r.top))*dpr;tp=1});
+    cv.parentElement.addEventListener('pointerleave',function(){tp=0});
+    var t0=performance.now();
+    function frame(now){if(mx<-9000){mx=tx;my=ty}mx+=(tx-mx)*.08;my+=(ty-my)*.08;mp+=(tp-mp)*.06;
+      gl.uniform2f(uR,cv.width,cv.height);gl.uniform1f(uT,(now-t0)/1000);gl.uniform2f(uM,mx,my);gl.uniform1f(uP,mp);gl.drawArrays(gl.TRIANGLE_STRIP,0,4);
+      if(!reduce&&vis)raf=requestAnimationFrame(frame)}
+    new IntersectionObserver(function(es){es.forEach(function(e){vis=e.isIntersecting;if(vis&&!reduce){cancelAnimationFrame(raf);raf=requestAnimationFrame(frame)}})}).observe(cv);
+    frame(performance.now())}
+
+  /* плитки проблем: центр раскрытия – там, где курсор */
+  document.querySelectorAll('.pt').forEach(function(t){t.addEventListener('pointermove',function(e){var r=t.getBoundingClientRect();t.style.setProperty('--x',(e.clientX-r.left)+'px');t.style.setProperty('--y',(e.clientY-r.top)+'px')})});
+
+  /* хиты: наклон карточки за мышью */
+  if(matchMedia('(hover:hover)').matches&&!reduce)document.querySelectorAll('#tilt .card').forEach(function(c){
+    c.addEventListener('pointermove',function(e){var r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width,y=(e.clientY-r.top)/r.height;c.style.transform='rotateX('+((.5-y)*10)+'deg) rotateY('+((x-.5)*12)+'deg) translateY(-4px)';c.style.setProperty('--gx',x*100+'%');c.style.setProperty('--gy',y*100+'%')});
+    c.addEventListener('pointerleave',function(){c.style.transform=''})});
+
+  /* лента новинок */
+  var rail=document.getElementById('rail'),down=false,sx=0,sl=0,moved=false;
+  document.querySelectorAll('[data-rail]').forEach(function(b){b.addEventListener('click',function(){var w=rail.querySelector('.card').getBoundingClientRect().width+20;rail.scrollBy({left:b.dataset.rail==='next'?w*2:-w*2,behavior:'smooth'})})});
+  rail.addEventListener('pointerdown',function(e){down=true;moved=false;sx=e.clientX;sl=rail.scrollLeft;rail.classList.add('drag')});
+  addEventListener('pointermove',function(e){if(!down)return;var d=e.clientX-sx;if(Math.abs(d)>4)moved=true;rail.scrollLeft=sl-d});
+  addEventListener('pointerup',function(){down=false;rail.classList.remove('drag')});
+  rail.addEventListener('click',function(e){if(moved){e.preventDefault();e.stopPropagation()}},true);
+})();
+</script>
+</body>
+</html>

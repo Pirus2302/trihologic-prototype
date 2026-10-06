@@ -1,0 +1,813 @@
+{
+ "nav": [
+  [
+   "Главная",
+   "https://trihologic.by/"
+  ],
+  [
+   "Каталог",
+   "https://trihologic.by/catalog/"
+  ],
+  [
+   "Средства",
+   "https://trihologic.by/product-category/sredstva/"
+  ],
+  [
+   "Шампуни",
+   "https://trihologic.by/product-category/sredstva/shampuni/"
+  ],
+  [
+   "Пилинги",
+   "https://trihologic.by/product-category/sredstva/pilingi/"
+  ],
+  [
+   "Бальзамы / кондиционеры",
+   "https://trihologic.by/product-category/sredstva/balzamy-kondicionery/"
+  ],
+  [
+   "Маски",
+   "https://trihologic.by/product-category/sredstva/maski/"
+  ],
+  [
+   "Сыворотки",
+   "https://trihologic.by/product-category/sredstva/syvorotki/"
+  ],
+  [
+   "Лосьоны",
+   "https://trihologic.by/product-category/sredstva/losony-toniki/"
+  ],
+  [
+   "Термозащита",
+   "https://trihologic.by/product-category/sredstva/termozashhita/"
+  ],
+  [
+   "Уход за длиной",
+   "https://trihologic.by/product-category/sredstva/uhod-za-dlinoj/"
+  ],
+  [
+   "Для бровей и ресниц",
+   "https://trihologic.by/product-category/sredstva/dlja-brovej-i-resnic/"
+  ],
+  [
+   "Наборы",
+   "https://trihologic.by/product-category/sredstva/nabory/"
+  ],
+  [
+   "Назначение",
+   "https://trihologic.by/product-category/naznachenie/"
+  ],
+  [
+   "Защита волос",
+   "https://trihologic.by/product-category/naznachenie/zashhita-volos/"
+  ],
+  [
+   "Андрогенетическая алопеция",
+   "https://trihologic.by/product-category/naznachenie/androgeneticheskaja-alopecija/"
+  ],
+  [
+   "Выпадение волос",
+   "https://trihologic.by/product-category/naznachenie/vypadenie-volos/"
+  ],
+  [
+   "Стимуляция роста волос",
+   "https://trihologic.by/product-category/naznachenie/stimuljacija-rosta-volos/"
+  ],
+  [
+   "Очаговая алопеция",
+   "https://trihologic.by/product-category/naznachenie/ochagovaja-alopecija/"
+  ],
+  [
+   "Диффузная алопеция",
+   "https://trihologic.by/product-category/naznachenie/diffuznaja-alopecija/"
+  ],
+  [
+   "Окрашенные и поврежденные волосы",
+   "https://trihologic.by/product-category/naznachenie/okrashennye-i-povrezhdennye-volosy/"
+  ],
+  [
+   "Перхоть, себорея, себорейный дерматит",
+   "https://trihologic.by/product-category/naznachenie/perhot-seboreja-seborejnyj-dermatit/"
+  ],
+  [
+   "Нормальная кожа головы",
+   "https://trihologic.by/product-category/naznachenie/normalnaja-kozha-golovy/"
+  ],
+  [
+   "Сухая / чувствительная кожа головы",
+   "https://trihologic.by/product-category/naznachenie/suhaja-chuvstvitelnaja-kozha-golovy/"
+  ],
+  [
+   "Ресницы и брови",
+   "https://trihologic.by/product-category/naznachenie/resnicy-i-brovi/"
+  ],
+  [
+   "Жирная кожа головы",
+   "https://trihologic.by/product-category/naznachenie/zhirnaja-kozha-golovy/"
+  ],
+  [
+   "Для кого",
+   "https://trihologic.by/product-category/dlja-kogo/"
+  ],
+  [
+   "Женщины",
+   "https://trihologic.by/product-category/dlja-kogo/zhenshhiny/"
+  ],
+  [
+   "Мужчины",
+   "https://trihologic.by/product-category/dlja-kogo/muzhchiny/"
+  ],
+  [
+   "Дети",
+   "https://trihologic.by/product-category/dlja-kogo/deti/"
+  ],
+  [
+   "Беременность и грудное вскармливание",
+   "https://trihologic.by/product-category/dlja-kogo/beremennost-i-grudnoe-vskarmlivanie/"
+  ],
+  [
+   "Аксессуары",
+   "https://trihologic.by/product-category/aksessuary/"
+  ],
+  [
+   "Расчёски",
+   "https://trihologic.by/product-category/aksessuary/raschjoski/"
+  ],
+  [
+   "Бренды",
+   "#"
+  ],
+  [
+   "DSD De Luxe",
+   "https://trihologic.by/бренд/dsd-de-luxe/"
+  ],
+  [
+   "Time to Grow",
+   "https://trihologic.by/бренд/time-to-grow/"
+  ],
+  [
+   "Follimed",
+   "https://trihologic.by/бренд/follimed/"
+  ],
+  [
+   "CRESCINA",
+   "https://trihologic.by/бренд/crescina/"
+  ],
+  [
+   "Janeke",
+   "https://trihologic.by/бренд/janeke/"
+  ],
+  [
+   "Dekohair",
+   "https://trihologic.by/бренд/dekohair/"
+  ],
+  [
+   "Советы трихолога",
+   "https://trihologic.by/sovety-trikhologa/"
+  ],
+  [
+   "Доставка",
+   "https://trihologic.by/dostavka/"
+  ],
+  [
+   "Оплата",
+   "https://trihologic.by/oplata-2/"
+  ],
+  [
+   "Возврат товара",
+   "https://trihologic.by/prava-potrebitelja-i-vozvrat-tovara-2/"
+  ]
+ ],
+ "products": [
+  {
+   "name": "Маска-прешампунь «Глубокое очищение» 200 мл",
+   "price": "181,00 бел.руб",
+   "img": "https://trihologic.by/wp-content/uploads/2026/02/maska-preshampun-glubokoe-ochishenie-200-ml-570x570.jpg",
+   "srcset": null,
+   "href": "https://trihologic.by/product/maska-preshampun-glubokoe-ochishhenie-200-ml/",
+   "classes": "product type-product post-2260 status-publish first instock product_cat-androgeneticheskaja-alopecija product_cat-beremennost-i-grudnoe-vskarmlivanie product_cat-diffuznaja-alopecija product_cat-zhenshhiny product_cat-zhirnaja-kozha-golovy product_cat-muzhchiny product_cat-ochagovaja-alopecija product_cat-pilingi product_cat-stimuljacija-rosta-volos product_cat-suhaja-chuvstvitelnaja-kozha-golovy has-post-thumbnail shipping-taxable purchasable product-type-simple"
+  },
+  {
+   "name": "КОФЕПТИД Активатор роста волос 100 мл",
+   "price": "333,00 бел.руб",
+   "img": "https://trihologic.by/wp-content/uploads/2026/02/kofeptid-aktivator-rosta-volos-time-grow-570x570.jpg",
+   "srcset": null,
+   "href": "https://trihologic.by/product/kofeptid-aktivator-rosta-volos-time-to-grow/",
+   "classes": "product type-product post-2355 status-publish instock product_cat-androgeneticheskaja-alopecija product_cat-beremennost-i-grudnoe-vskarmlivanie product_cat-losony-toniki product_cat-muzhchiny has-post-thumbnail shipping-taxable purchasable product-type-simple"
+  },
+  {
+   "name": "Три-Энерджи Фактор 5,5% лосьон, 100 мл",
+   "price": "389,00 бел.руб",
+   "img": "https://trihologic.by/wp-content/uploads/2026/02/intensivnoe-sredstvo-dlya-vosstanovleniya-gustoty-i-tolshiny-volos-time-grow-tri-enerdzhi-faktor-55-loson-soderzhit-neurostab-100-ml-570x570.webp",
+   "srcset": null,
+   "href": "https://trihologic.by/product/intensivnoe-sredstvo-dlja-vosstanovlenija-gustoty-i-tolshhiny-volos-time-to-grow-tri-jenerdzhi-faktor-5-5-loson-soderzhit-neurostab-100-ml/",
+   "classes": "product type-product post-2322 status-publish last instock product_cat-androgeneticheskaja-alopecija product_cat-vypadenie-volos product_cat-diffuznaja-alopecija product_cat-dlja-kogo product_cat-zhenshhiny product_cat-losony-toniki product_cat-muzhchiny product_cat-naznachenie product_cat-sredstva has-post-thumbnail shipping-taxable purchasable product-type-simple"
+  },
+  {
+   "name": "Экзосомно-пептидный стимулятор роста волос Time To Grow БИО-ЭНЕРДЖИ. Содержит NeuroStab™, 100 мл",
+   "price": "456,00 бел.руб",
+   "img": "https://trihologic.by/wp-content/uploads/2026/02/ekzosomno-peptidnyj-stimulyator-rosta-volos-time-grow-bio-enerdzhi-soderzhit-neurostab-100-ml-570x570.png",
+   "srcset": null,
+   "href": "https://trihologic.by/product/jekzosomno-peptidnyj-stimuljator-rosta-volos-time-to-grow-bio-jenerdzhi-soderzhit-neurostab-100-ml/",
+   "classes": "product type-product post-2278 status-publish first instock product_cat-androgeneticheskaja-alopecija product_cat-vypadenie-volos product_cat-zhenshhiny product_cat-losony-toniki product_cat-muzhchiny product_cat-sredstva product_cat-stimuljacija-rosta-volos has-post-thumbnail shipping-taxable purchasable product-type-simple"
+  },
+  {
+   "name": "Шампунь-ЕЖЕДНЕВНЫЙ иммунитет. Для чувствительной кожи сухого и нормального типа, 200 мл",
+   "price": "131,00 бел.руб",
+   "img": "https://trihologic.by/wp-content/uploads/2026/02/shampun-ezhednevnyj-immunitet-dlya-chuvstvitelnoj-kozhi-suhogo-i-normalnogo-tipa-200-ml-570x570.jpg",
+   "srcset": null,
+   "href": "https://trihologic.by/product/shampun-ezhednevnyj-immunitet-dlja-chuvstvitelnoj-kozhi-suhogo-i-normalnogo-tipa-200-ml/",
+   "classes": "product type-product post-2418 status-publish instock product_cat-androgeneticheskaja-alopecija product_cat-deti product_cat-zhenshhiny product_cat-muzhchiny product_cat-normalnaja-kozha-golovy product_cat-ochagovaja-alopecija product_cat-suhaja-chuvstvitelnaja-kozha-golovy product_cat-shampuni has-post-thumbnail shipping-taxable purchasable product-type-simple"
+  },
+  {
+   "name": "Лосьон Time To Grow для укрепления и восстановления роста волос у детей, 100 МЛ",
+   "price": "249,00 бел.руб",
+   "img": "https://trihologic.by/wp-content/uploads/2026/02/loson-time-grow-dlya-ukrepleniya-i-vosstanovleniya-rosta-volos-u-detej-100-ml-570x570.jpg",
+   "srcset": null,
+   "href": "https://trihologic.by/product/loson-time-to-grow-dlja-ukreplenija-i-vosstanovlenija-rosta-volos-u-detej-100-ml/",
+   "classes": "product type-product post-2297 status-publish last instock product_cat-vypadenie-volos product_cat-deti product_cat-losony-toniki product_cat-stimuljacija-rosta-volos has-post-thumbnail shipping-taxable purchasable product-type-simple"
+  },
+  {
+   "name": "Регулятор роста волос Time To Grow «DNA-PEPTIDE». Содержит NeuroStab™, 100 мл",
+   "price": "444,00 бел.руб",
+   "img": "https://trihologic.by/wp-content/uploads/2026/02/regulyator-rosta-volos-time-grow-dna-peptide-soderzhit-neurostab-100-ml-570x570.webp",
+   "srcset": null,
+   "href": "https://trihologic.by/product/reguljator-rosta-volos-time-to-grow-dna-peptide-soderzhit-neurostab-100-ml/",
+   "classes": "product type-product post-2309 status-publish first instock product_cat-vypadenie-volos product_cat-dlja-kogo product_cat-zhenshhiny product_cat-zhirnaja-kozha-golovy product_cat-losony-toniki product_cat-muzhchiny product_cat-naznachenie product_cat-normalnaja-kozha-golovy product_cat-sredstva product_cat-stimuljacija-rosta-volos has-post-thumbnail shipping-taxable purchasable product-type-simple"
+  },
+  {
+   "name": "Лосьон для роста волос Charismo Dekohair, 60 мл",
+   "price": "300,00 бел.руб",
+   "img": "https://trihologic.by/wp-content/uploads/2026/04/img_6997-570x570.jpeg",
+   "srcset": null,
+   "href": "https://trihologic.by/product/loson-dlja-rosta-volos-charismo-dekohair-60-ml/",
+   "classes": "product type-product post-3090 status-publish outofstock product_cat-androgeneticheskaja-alopecija product_cat-vypadenie-volos product_cat-diffuznaja-alopecija product_cat-zhenshhiny product_cat-losony-toniki product_cat-muzhchiny product_cat-stimuljacija-rosta-volos has-post-thumbnail shipping-taxable purchasable product-type-simple"
+  },
+  {
+   "name": "DSD de Luxe 9.4.1 Exogrow Booster Lotion, 100 мл",
+   "price": "482,00 бел.руб",
+   "img": "https://trihologic.by/wp-content/uploads/2026/09/9.4.1-dsd-exogrow-booster-lotion-loson-dlya-volos--e1789058716943-570x570.webp",
+   "srcset": null,
+   "href": "https://trihologic.by/product/dsd-de-luxe-9-4-1-exogrow-booster-lotion-100-ml/",
+   "classes": "product type-product post-3701 status-publish last instock product_cat-vypadenie-volos product_cat-diffuznaja-alopecija product_cat-zhenshhiny product_cat-losony-toniki product_cat-muzhchiny product_cat-ochagovaja-alopecija product_cat-stimuljacija-rosta-volos has-post-thumbnail shipping-taxable purchasable product-type-simple"
+  },
+  {
+   "name": "Шампунь-бустер с экзосомами DSD de Luxe 9.1 Exogrow Booster Shampoo, 200 мл",
+   "price": "107,00 бел.руб",
+   "img": "https://trihologic.by/wp-content/uploads/2026/09/dlja-kompleksnogo-uhoda-posmotrite-drugie-sredstva-pri-vypadenii-volos-i-professionalnuju-kosmetiku-dsd-de-luxe-e1789055128480-570x570.png",
+   "srcset": null,
+   "href": "https://trihologic.by/product/dsd-de-luxe-9-1-exogrow-booster-shampoo-200-ml/",
+   "classes": "product type-product post-3698 status-publish first instock product_cat-androgeneticheskaja-alopecija product_cat-vypadenie-volos product_cat-diffuznaja-alopecija product_cat-zhenshhiny product_cat-muzhchiny product_cat-stimuljacija-rosta-volos product_cat-shampuni has-post-thumbnail shipping-taxable purchasable product-type-simple"
+  },
+  {
+   "name": "Сыворотка для детских волос «Уход и Защита»",
+   "price": "146,00 бел.руб",
+   "img": "https://trihologic.by/wp-content/uploads/2026/08/2025-05-22-13-56-33-bradius1smoothing1-e1786622893245-570x570.jpg",
+   "srcset": null,
+   "href": "https://trihologic.by/product/syvorotka-dlja-detskih-volos-uhod-i-zashhita/",
+   "classes": "product type-product post-3663 status-publish instock product_cat-deti product_cat-zashhita-volos product_cat-syvorotki has-post-thumbnail shipping-taxable purchasable product-type-simple"
+  },
+  {
+   "name": "Лосьон для кожи головы против выпадения волос Philip Martin’s Scalp Nutriment Professional 12 fluids",
+   "price": "265,99 бел.руб",
+   "img": "https://trihologic.by/wp-content/uploads/2026/08/philip_martins_losion-570x570.png",
+   "srcset": null,
+   "href": "https://trihologic.by/product/loson-dlja-kozhi-golovy-protiv-vypadenija-volos-philip-martin-s-scalp-nutriment-professional-12-fluids/",
+   "classes": "product type-product post-3660 status-publish last instock product_cat-vypadenie-volos product_cat-diffuznaja-alopecija product_cat-zhenshhiny product_cat-zashhita-volos product_cat-losony-toniki product_cat-muzhchiny product_cat-stimuljacija-rosta-volos has-post-thumbnail shipping-taxable purchasable product-type-simple"
+  },
+  {
+   "name": "Щетка для волос MANTA Brush Orange",
+   "price": "129,99 бел.руб",
+   "img": "https://trihologic.by/wp-content/uploads/2026/08/kntx4p2jt3c74a2m6a0j1h509o5nq7q2-570x570.webp",
+   "srcset": null,
+   "href": "https://trihologic.by/product/shhetka-dlja-volos-manta-brush-orange/",
+   "classes": "product type-product post-3655 status-publish first instock product_cat-aksessuary product_cat-deti product_cat-zhenshhiny product_cat-muzhchiny product_cat-raschjoski has-post-thumbnail shipping-taxable purchasable product-type-simple"
+  },
+  {
+   "name": "Щетка для волос Janeke Superbrush Arancio Fluorescente Orange",
+   "price": "65,99 бел.руб",
+   "img": "https://trihologic.by/wp-content/uploads/2026/08/janeke_orange-2-570x570.png",
+   "srcset": null,
+   "href": "https://trihologic.by/product/shhetka-dlja-volos-janeke-superbrush-arancio-fluorescente-orange/",
+   "classes": "product type-product post-3649 status-publish onbackorder product_cat-aksessuary product_cat-zhenshhiny product_cat-raschjoski has-post-thumbnail shipping-taxable purchasable product-type-simple"
+  },
+  {
+   "name": "Щетка для волос Janeke Superbrush Giallo Fluorescente Yellow",
+   "price": "65,99 бел.руб",
+   "img": "https://trihologic.by/wp-content/uploads/2026/08/janeke_yellow-570x570.png",
+   "srcset": null,
+   "href": "https://trihologic.by/product/shhetka-dlja-volos-janeke-superbrush-giallo-fluorescente/",
+   "classes": "product type-product post-3640 status-publish last instock product_cat-aksessuary product_cat-zhenshhiny product_cat-raschjoski has-post-thumbnail shipping-taxable purchasable product-type-simple"
+  },
+  {
+   "name": "Концентрат-Бустер для восстановления роста волос «Три-Энерджи Фактор» 5% Пена 150 мл",
+   "price": "366,00 бел.руб",
+   "img": "https://trihologic.by/wp-content/uploads/2026/05/2025-05-06-15-09-48-bradius1smoothing1-e1779960457842-570x570.webp",
+   "srcset": null,
+   "href": "https://trihologic.by/product/koncentrat-buster-dlja-vosstanovlenija-rosta-volos-tri-jenerdzhi-faktor-5-pena-150-ml/",
+   "classes": "product type-product post-3436 status-publish first instock product_cat-androgeneticheskaja-alopecija product_cat-vypadenie-volos product_cat-zhenshhiny product_cat-losony-toniki product_cat-muzhchiny product_cat-ochagovaja-alopecija product_cat-stimuljacija-rosta-volos has-post-thumbnail shipping-taxable purchasable product-type-simple"
+  }
+ ],
+ "images": [
+  {
+   "src": "https://www.facebook.com/tr?id=27908923228799746&ev=PageView&noscript=1",
+   "alt": null,
+   "cls": ""
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/03/logo-black-2.png",
+   "alt": "Trihologic",
+   "cls": ""
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/03/logo-white-2.png",
+   "alt": "Trihologic",
+   "cls": ""
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/03/logo-white-2.png",
+   "alt": "Trihologic",
+   "cls": ""
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/03/empty.png",
+   "alt": "banner",
+   "cls": ""
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/04/instories_ac4699c6-27a4-43a7-a79a-25733c173440-1024x1024.png",
+   "alt": "",
+   "cls": "attachment-large size-large wp-image-3183"
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/04/instories_746b7ffc-d97f-4984-8f40-97a4f507d31d-1024x1024.png",
+   "alt": "",
+   "cls": "attachment-large size-large wp-image-3185"
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/04/instories_eeb78ea8-6ebe-410f-a83d-ce0651433e41-1024x1024.png",
+   "alt": "",
+   "cls": "attachment-large size-large wp-image-3186"
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/04/instories_d4049ca2-a0ce-41f1-9ec8-f13b9929417c-1024x1024.png",
+   "alt": "",
+   "cls": "attachment-large size-large wp-image-3187"
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/03/4155a647060da31b8778682f194c39cc_0357c084-f9d2-4037-9070-e8db4fb62cd0-1024x572.png",
+   "alt": "",
+   "cls": "attachment-large size-large wp-image-2762"
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/03/1e0173d426cae02b9d7e85c8f3ef1842_b92b67ed_ff69_43a0_adcf_3799ce66781f-1024x572.png",
+   "alt": "",
+   "cls": "attachment-large size-large wp-image-2763"
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/03/f40729187c52629b73822a89a4d5c3c5_69e8c83a-3020-47f8-acde-a7894b9be0af-1024x1024.png",
+   "alt": "",
+   "cls": "attachment-large size-large wp-image-2765"
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/04/chatgpt-image-1-maja-2026-g.-02_39_01-1024x1024.png",
+   "alt": "",
+   "cls": "attachment-large size-large wp-image-3211"
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/05/chatgpt-image-1-maja-2026-g.-10_40_29-1024x1024.png",
+   "alt": "",
+   "cls": "attachment-large size-large wp-image-3219"
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/02/maska-preshampun-glubokoe-ochishenie-200-ml-570x570.jpg",
+   "alt": "Маска-прешампунь «Глубокое очищение» 200 мл",
+   "cls": ""
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/02/kofeptid-aktivator-rosta-volos-time-grow-570x570.jpg",
+   "alt": "КОФЕПТИД Активатор роста волос 100 мл",
+   "cls": ""
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/02/intensivnoe-sredstvo-dlya-vosstanovleniya-gustoty-i-tolshiny-volos-time-grow-tri-enerdzhi-faktor-55-loson-soderzhit-neurostab-100-ml-570x570.webp",
+   "alt": "Три-Энерджи Фактор 5,5% лосьон, 100 мл",
+   "cls": ""
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/02/ekzosomno-peptidnyj-stimulyator-rosta-volos-time-grow-bio-enerdzhi-soderzhit-neurostab-100-ml-570x570.png",
+   "alt": "Экзосомно-пептидный стимулятор роста волос Time To Grow БИО-ЭНЕРДЖИ. Содержит NeuroStab™, 100 мл",
+   "cls": ""
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/02/shampun-ezhednevnyj-immunitet-dlya-chuvstvitelnoj-kozhi-suhogo-i-normalnogo-tipa-200-ml-570x570.jpg",
+   "alt": "Шампунь-ЕЖЕДНЕВНЫЙ иммунитет. Для чувствительной кожи сухого и нормального типа, 200 мл",
+   "cls": ""
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/02/loson-time-grow-dlya-ukrepleniya-i-vosstanovleniya-rosta-volos-u-detej-100-ml-570x570.jpg",
+   "alt": "Лосьон Time To Grow для укрепления и восстановления роста волос у детей, 100 МЛ",
+   "cls": ""
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/02/regulyator-rosta-volos-time-grow-dna-peptide-soderzhit-neurostab-100-ml-570x570.webp",
+   "alt": "Регулятор роста волос Time To Grow «DNA-PEPTIDE». Содержит NeuroStab™, 100 мл",
+   "cls": ""
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/04/img_6997-570x570.jpeg",
+   "alt": "Лосьон для роста волос Charismo Dekohair, 60 мл",
+   "cls": ""
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/09/9.4.1-dsd-exogrow-booster-lotion-loson-dlya-volos--e1789058716943-570x570.webp",
+   "alt": "DSD de Luxe 9.4.1 Exogrow Booster Lotion, 100 мл",
+   "cls": ""
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/09/dlja-kompleksnogo-uhoda-posmotrite-drugie-sredstva-pri-vypadenii-volos-i-professionalnuju-kosmetiku-dsd-de-luxe-e1789055128480-570x570.png",
+   "alt": "Шампунь-бустер с экзосомами DSD de Luxe 9.1 Exogrow Booster Shampoo, 200 мл",
+   "cls": ""
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/08/2025-05-22-13-56-33-bradius1smoothing1-e1786622893245-570x570.jpg",
+   "alt": "Сыворотка для детских волос «Уход и Защита»",
+   "cls": ""
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/08/philip_martins_losion-570x570.png",
+   "alt": "Лосьон для кожи головы против выпадения волос Philip Martin’s Scalp Nutriment Professional 12 fluids",
+   "cls": ""
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/08/kntx4p2jt3c74a2m6a0j1h509o5nq7q2-570x570.webp",
+   "alt": "Щетка для волос MANTA Brush Orange",
+   "cls": ""
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/08/janeke_orange-2-570x570.png",
+   "alt": "Щетка для волос Janeke Superbrush Arancio Fluorescente Orange",
+   "cls": ""
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/08/janeke_yellow-570x570.png",
+   "alt": "Щетка для волос Janeke Superbrush Giallo Fluorescente Yellow",
+   "cls": ""
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/05/2025-05-06-15-09-48-bradius1smoothing1-e1779960457842-570x570.webp",
+   "alt": "Концентрат-Бустер для восстановления роста волос «Три-Энерджи Фактор» 5% Пена 150 мл",
+   "cls": ""
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/03/photo_2026-02-25_10-32-09-400x270.jpg",
+   "alt": "Выпадение волос: с чего начать, чтобы не стало хуже",
+   "cls": ""
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/03/chatgpt-image-5-maja-2026-g.-14_54_38-e1777982220846-400x270.png",
+   "alt": "Андрогенетическая алопеция (АГА): можно ли остановить выпадение и что реально работает",
+   "cls": ""
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/03/photo_2026-02-25_10-32-18-400x270.jpg",
+   "alt": "Эффективные методы укрепления волос для борьбы с выпадением",
+   "cls": ""
+  },
+  {
+   "src": "https://trihologic.by/wp-content/uploads/2026/03/horizontal-color-scaled.png",
+   "alt": "Банковские карты",
+   "cls": ""
+  }
+ ],
+ "headings": [
+  [
+   "h2",
+   "магазин профессиональных трихологических средств для волос и кожи головы"
+  ],
+  [
+   "h2",
+   "Подобрать уход"
+  ],
+  [
+   "h2",
+   "Бренды"
+  ],
+  [
+   "h2",
+   "Хиты"
+  ],
+  [
+   "h2",
+   "Маска-прешампунь «Глубокое очищение» 200 мл"
+  ],
+  [
+   "h2",
+   "КОФЕПТИД Активатор роста волос 100 мл"
+  ],
+  [
+   "h2",
+   "Три-Энерджи Фактор 5,5% лосьон, 100 мл"
+  ],
+  [
+   "h2",
+   "Экзосомно-пептидный стимулятор роста волос Time To Grow БИО-ЭНЕРДЖИ. Содержит NeuroStab™, 100 мл"
+  ],
+  [
+   "h2",
+   "Шампунь-ЕЖЕДНЕВНЫЙ иммунитет. Для чувствительной кожи сухого и нормального типа, 200 мл"
+  ],
+  [
+   "h2",
+   "Лосьон Time To Grow для укрепления и восстановления роста волос у детей, 100 МЛ"
+  ],
+  [
+   "h2",
+   "Регулятор роста волос Time To Grow «DNA-PEPTIDE». Содержит NeuroStab™, 100 мл"
+  ],
+  [
+   "h2",
+   "Лосьон для роста волос Charismo Dekohair, 60 мл"
+  ],
+  [
+   "h2",
+   "Новинки"
+  ],
+  [
+   "h2",
+   "DSD de Luxe 9.4.1 Exogrow Booster Lotion, 100 мл"
+  ],
+  [
+   "h2",
+   "Шампунь-бустер с экзосомами DSD de Luxe 9.1 Exogrow Booster Shampoo, 200 мл"
+  ],
+  [
+   "h2",
+   "Сыворотка для детских волос «Уход и Защита»"
+  ],
+  [
+   "h2",
+   "Лосьон для кожи головы против выпадения волос Philip Martin’s Scalp Nutriment Professional 12 fluids"
+  ],
+  [
+   "h2",
+   "Щетка для волос MANTA Brush Orange"
+  ],
+  [
+   "h2",
+   "Щетка для волос Janeke Superbrush Arancio Fluorescente Orange"
+  ],
+  [
+   "h2",
+   "Щетка для волос Janeke Superbrush Giallo Fluorescente Yellow"
+  ],
+  [
+   "h2",
+   "Концентрат-Бустер для восстановления роста волос «Три-Энерджи Фактор» 5% Пена 150 мл"
+  ],
+  [
+   "h2",
+   "Советы трихолога о здоровье волос и кожи головы"
+  ],
+  [
+   "h3",
+   "Выпадение волос: с чего начать, чтобы не стало хуже"
+  ],
+  [
+   "h3",
+   "Андрогенетическая алопеция (АГА): можно ли остановить выпадение и что реально работает"
+  ],
+  [
+   "h3",
+   "Эффективные методы укрепления волос для борьбы с выпадением"
+  ],
+  [
+   "h2",
+   "FAQ"
+  ],
+  [
+   "h2",
+   "Профессиональные средства против выпадения волос в Минске"
+  ],
+  [
+   "h4",
+   "Контактная информация"
+  ],
+  [
+   "h4",
+   "Юридическая информация"
+  ],
+  [
+   "h4",
+   "Информация"
+  ],
+  [
+   "h4",
+   "Средства"
+  ],
+  [
+   "h4",
+   "Назначение"
+  ],
+  [
+   "h4",
+   "Для кого"
+  ],
+  [
+   "h4",
+   "Аксессуары"
+  ]
+ ],
+ "posts": [
+  {
+   "title": "Выпадение волос: с чего начать, чтобы не стало хуже",
+   "href": "https://trihologic.by/2026/03/03/alopecija-prichiny-simptomy-metody-borby/",
+   "img": "https://trihologic.by/wp-content/uploads/2026/03/photo_2026-02-25_10-32-09-400x270.jpg",
+   "date": null
+  },
+  {
+   "title": "Андрогенетическая алопеция (АГА): можно ли остановить выпадение и что реально работает",
+   "href": "https://trihologic.by/2026/03/03/kak-primenjat-ampuly-ot-vypadenija-volos/",
+   "img": "https://trihologic.by/wp-content/uploads/2026/03/chatgpt-image-5-maja-2026-g.-14_54_38-e1777982220846-400x270.png",
+   "date": null
+  },
+  {
+   "title": "Эффективные методы укрепления волос для борьбы с выпадением",
+   "href": "https://trihologic.by/2026/03/03/jeffektivnye-metody-ukreplenija-volos-dlja-borby-s-vypadeniem/",
+   "img": "https://trihologic.by/wp-content/uploads/2026/03/photo_2026-02-25_10-32-18-400x270.jpg",
+   "date": null
+  }
+ ],
+ "faq": [
+  {
+   "q": "1. Как понять, какое средство подойдёт именно мне?",
+   "a": "Подбор средств зависит от причины проблемы: выпадение, жирная кожа головы, перхоть, истончение волос — у каждой задачи свои решения.\nПоэтому мы не рекомендуем выбирать «наугад» или ориентироваться только на отзывы."
+  },
+  {
+   "q": "2. Нужно ли идти к трихологу перед покупкой?",
+   "a": "Не всегда, но в ряде случаев — желательно."
+  },
+  {
+   "q": "3. Это оригинальная продукция?",
+   "a": "Да, мы работаем только с официальными поставщиками и брендами.\nTRIHOLOGIC — официальный дистрибьютор профессиональной трихологической косметики Time to Grow."
+  },
+  {
+   "q": "4. Через сколько будет эффект от лечения?",
+   "a": "Все зависит от вида проблемы, ее степени выраженности и длительности существования, а также от общего состояния организма. Например, при андрогенетической алопеции Ваш лечащий доктор оценивает эффективность терапии не ранее, чем через 3-4 мес. от начала лечения, с помощью таких методов, как обзорная фотография (с применением стереотаксического устройства для стандартизации фотографий), трихоскопия и фототрихограмма. Кроме того, реакция на препараты и процедуры всегда индивидуальна. Очень важно внимательно и тщательно выполнять рекомендации Вашего врача, чтобы эффект был максимальным."
+  },
+  {
+   "q": "5. Если у меня АГА, значит лечение не поможет? Ведь нельзя вылечить косметическими средствами генетическое заболевание?",
+   "a": "АГА действительно связана с генетической чувствительностью волосяных фолликулов к андрогенам. То есть «вылечить навсегда» её одним шампунем, лосьоном или сывороткой невозможно."
+  }
+ ],
+ "footer": "Контактная информация\nТелефон:\n+375 29 525 46 24\nЭл. почта:\nkris.petrovecz@mail.ru\nInstagram:\n@trihologic_by\nВремя работы:\nПн-Пт: с 10:00-20:00\nСуб.: с 11:00-18:00\nВс: Выходной\nЮридическая информация\nИП Петровец Наталия Степановна\nУНП: 291896418\nРеспублика Беларусь, г. Столин, ул. 50 лет Победы 4, 225501\nСвидетельство о регистрации №7-267, выдано 2 марта 2026 года Столинским Райисполкомом\nИнтернет-магазин включен в Торговый реестр Республики Беларусь 24.03.2026 г. за №772406\nИнформация\nДоставка\nОплата\nВозврат товара\nСредства\nШампуни\nПилинги\nБальзамы / кондиционеры\nМаски\nСыворотки\nЛосьоны\nТермозащита\nУход за длиной\nДля бровей и ресниц\nНаборы\nНазначение\nЗащита волос\nРесницы и брови\nВыпадение волос\nАндрогенетическая алопеция\nОчаговая алопеция\nДиффузная алопеция\nСтимуляция роста волос\nПерхоть, себорея, себорейный дерматит\nСухая / чувствительная кожа головы\nЖирная кожа головы\nНормальная кожа головы\nОкрашенные и поврежденные волосы\nДля кого\nЖенщины\nМужчины\nДети\nБеременность и грудное вскармливание\nАксессуары\nРасчёски\ntrihologic.by © 2026 Все права защищены.",
+ "cats": [
+  [
+   "Каталог",
+   "https://trihologic.by/catalog/"
+  ],
+  [
+   "Средства",
+   "https://trihologic.by/product-category/sredstva/"
+  ],
+  [
+   "Шампуни",
+   "https://trihologic.by/product-category/sredstva/shampuni/"
+  ],
+  [
+   "Пилинги",
+   "https://trihologic.by/product-category/sredstva/pilingi/"
+  ],
+  [
+   "Бальзамы / кондиционеры",
+   "https://trihologic.by/product-category/sredstva/balzamy-kondicionery/"
+  ],
+  [
+   "Маски",
+   "https://trihologic.by/product-category/sredstva/maski/"
+  ],
+  [
+   "Сыворотки",
+   "https://trihologic.by/product-category/sredstva/syvorotki/"
+  ],
+  [
+   "Лосьоны",
+   "https://trihologic.by/product-category/sredstva/losony-toniki/"
+  ],
+  [
+   "Термозащита",
+   "https://trihologic.by/product-category/sredstva/termozashhita/"
+  ],
+  [
+   "Уход за длиной",
+   "https://trihologic.by/product-category/sredstva/uhod-za-dlinoj/"
+  ],
+  [
+   "Для бровей и ресниц",
+   "https://trihologic.by/product-category/sredstva/dlja-brovej-i-resnic/"
+  ],
+  [
+   "Наборы",
+   "https://trihologic.by/product-category/sredstva/nabory/"
+  ],
+  [
+   "Назначение",
+   "https://trihologic.by/product-category/naznachenie/"
+  ],
+  [
+   "Защита волос",
+   "https://trihologic.by/product-category/naznachenie/zashhita-volos/"
+  ],
+  [
+   "Андрогенетическая алопеция",
+   "https://trihologic.by/product-category/naznachenie/androgeneticheskaja-alopecija/"
+  ],
+  [
+   "Выпадение волос",
+   "https://trihologic.by/product-category/naznachenie/vypadenie-volos/"
+  ],
+  [
+   "Стимуляция роста волос",
+   "https://trihologic.by/product-category/naznachenie/stimuljacija-rosta-volos/"
+  ],
+  [
+   "Очаговая алопеция",
+   "https://trihologic.by/product-category/naznachenie/ochagovaja-alopecija/"
+  ],
+  [
+   "Диффузная алопеция",
+   "https://trihologic.by/product-category/naznachenie/diffuznaja-alopecija/"
+  ],
+  [
+   "Окрашенные и поврежденные волосы",
+   "https://trihologic.by/product-category/naznachenie/okrashennye-i-povrezhdennye-volosy/"
+  ],
+  [
+   "Перхоть, себорея, себорейный дерматит",
+   "https://trihologic.by/product-category/naznachenie/perhot-seboreja-seborejnyj-dermatit/"
+  ],
+  [
+   "Нормальная кожа головы",
+   "https://trihologic.by/product-category/naznachenie/normalnaja-kozha-golovy/"
+  ],
+  [
+   "Сухая / чувствительная кожа головы",
+   "https://trihologic.by/product-category/naznachenie/suhaja-chuvstvitelnaja-kozha-golovy/"
+  ],
+  [
+   "Ресницы и брови",
+   "https://trihologic.by/product-category/naznachenie/resnicy-i-brovi/"
+  ],
+  [
+   "Жирная кожа головы",
+   "https://trihologic.by/product-category/naznachenie/zhirnaja-kozha-golovy/"
+  ],
+  [
+   "Для кого",
+   "https://trihologic.by/product-category/dlja-kogo/"
+  ],
+  [
+   "Женщины",
+   "https://trihologic.by/product-category/dlja-kogo/zhenshhiny/"
+  ],
+  [
+   "Мужчины",
+   "https://trihologic.by/product-category/dlja-kogo/muzhchiny/"
+  ],
+  [
+   "Дети",
+   "https://trihologic.by/product-category/dlja-kogo/deti/"
+  ],
+  [
+   "Беременность и грудное вскармливание",
+   "https://trihologic.by/product-category/dlja-kogo/beremennost-i-grudnoe-vskarmlivanie/"
+  ],
+  [
+   "Аксессуары",
+   "https://trihologic.by/product-category/aksessuary/"
+  ],
+  [
+   "Расчёски",
+   "https://trihologic.by/product-category/aksessuary/raschjoski/"
+  ],
+  [
+   "Смотреть каталог",
+   "https://trihologic.by/catalog/"
+  ],
+  [
+   "",
+   "https://trihologic.by/product-category/naznachenie/vypadenie-volos/"
+  ],
+  [
+   "",
+   "https://trihologic.by/product-category/naznachenie/perhot-seboreja-seborejnyj-dermatit/"
+  ],
+  [
+   "",
+   "https://trihologic.by/product-category/naznachenie/stimuljacija-rosta-volos/"
+  ],
+  [
+   "",
+   "https://trihologic.by/product-category/naznachenie/zashhita-volos/page/2/"
+  ]
+ ]
+}
